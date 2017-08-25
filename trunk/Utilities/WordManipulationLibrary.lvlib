@@ -35,34 +35,45 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="ParameterManipulation" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="GetModeAndParameters.vi" Type="VI" URL="../GetModeAndParameters.vi"/>
-		<Item Name="Parameters_BuildPositionMove.vi" Type="VI" URL="../Parameters_BuildPositionMove.vi"/>
-		<Item Name="Parameters_BuildReference.vi" Type="VI" URL="../Parameters_BuildReference.vi"/>
-		<Item Name="Parameters_GetHomingParams.vi" Type="VI" URL="../Parameters_GetHomingParams.vi"/>
-		<Item Name="Parameters_GetPositionParams.vi" Type="VI" URL="../Parameters_GetPositionParams.vi"/>
-		<Item Name="ReferenceMoveParameters.ctl" Type="VI" URL="../ReferenceMoveParameters.ctl"/>
+		<Item Name="Controls" Type="Folder">
+			<Item Name="Parameters_Reference.ctl" Type="VI" URL="../Parameters_Reference.ctl"/>
+		</Item>
+		<Item Name="Parameters_Build_CyclicSetpoint.vi" Type="VI" URL="../Parameters_Build_CyclicSetpoint.vi"/>
+		<Item Name="Parameters_Build_PositionMove.vi" Type="VI" URL="../Parameters_Build_PositionMove.vi"/>
+		<Item Name="Parameters_Build_Reference.vi" Type="VI" URL="../Parameters_Build_Reference.vi"/>
+		<Item Name="Parameters_Get_Cyclic.vi" Type="VI" URL="../Parameters_Get_Cyclic.vi"/>
+		<Item Name="Parameters_Get_Mode.vi" Type="VI" URL="../Parameters_Get_Mode.vi"/>
+		<Item Name="Parameters_Get_Position.vi" Type="VI" URL="../Parameters_Get_Position.vi"/>
+		<Item Name="Parameters_Get_Reference.vi" Type="VI" URL="../Parameters_Get_Reference.vi"/>
 	</Item>
 	<Item Name="ResultManitpulation" Type="Folder">
-		<Item Name="Results_FromPositionMove.vi" Type="VI" URL="../Results_FromPositionMove.vi"/>
-		<Item Name="Results_FromReadMethod.vi" Type="VI" URL="../Results_FromReadMethod.vi"/>
+		<Item Name="Controls" Type="Folder">
+			<Item Name="Results_MotionIO.ctl" Type="VI" URL="../Results_MotionIO.ctl"/>
+			<Item Name="Results_Trajectory.ctl" Type="VI" URL="../Results_Trajectory.ctl"/>
+		</Item>
+		<Item Name="Results_Get_Position.vi" Type="VI" URL="../Results_Get_Position.vi"/>
+		<Item Name="Results_Get_Read.vi" Type="VI" URL="../Results_Get_Read.vi"/>
 	</Item>
 	<Item Name="WordManipulation" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="Controls" Type="Folder">
+			<Item Name="Controlword_Commands.ctl" Type="VI" URL="../Controlword_Commands.ctl"/>
+			<Item Name="MoveMode.ctl" Type="VI" URL="../MoveMode.ctl"/>
+			<Item Name="StateMachine.ctl" Type="VI" URL="../StateMachine.ctl"/>
+		</Item>
 		<Item Name="General" Type="Folder">
-			<Item Name="CommandToControlWord.vi" Type="VI" URL="../CommandToControlWord.vi"/>
-			<Item Name="ControlwordToCommand.vi" Type="VI" URL="../ControlwordToCommand.vi"/>
-			<Item Name="StateToStatusword.vi" Type="VI" URL="../StateToStatusword.vi"/>
-			<Item Name="StatuswordToState.vi" Type="VI" URL="../StatuswordToState.vi"/>
+			<Item Name="Controlword_CommandToWord.vi" Type="VI" URL="../Controlword_CommandToWord.vi"/>
+			<Item Name="Controlword_WordToCommand.vi" Type="VI" URL="../Controlword_WordToCommand.vi"/>
+			<Item Name="Statusword_StateToWord.vi" Type="VI" URL="../Statusword_StateToWord.vi"/>
+			<Item Name="Statusword_WordToState.vi" Type="VI" URL="../Statusword_WordToState.vi"/>
 		</Item>
 		<Item Name="Moves" Type="Folder">
+			<Item Name="Controlword_ModeSpecific_CyclicSetpoint.vi" Type="VI" URL="../Controlword_ModeSpecific_CyclicSetpoint.vi"/>
 			<Item Name="Controlword_ModeSpecific_PositionProfile.vi" Type="VI" URL="../Controlword_ModeSpecific_PositionProfile.vi"/>
-			<Item Name="Controlword_ModeSpecific_Reference.vi" Type="VI" URL="../Controlword_ModeSpecific_Reference.vi"/>
+			<Item Name="Controlword_ModeSpecific_ReferenceMove.vi" Type="VI" URL="../Controlword_ModeSpecific_ReferenceMove.vi"/>
+			<Item Name="Statusword_ModeSpecific_CyclicSetpoint.vi" Type="VI" URL="../Statusword_ModeSpecific_CyclicSetpoint.vi"/>
 			<Item Name="Statusword_ModeSpecific_PositionProfile.vi" Type="VI" URL="../Statusword_ModeSpecific_PositionProfile.vi"/>
+			<Item Name="Statusword_ModeSpecific_ReferenceMove.vi" Type="VI" URL="../Statusword_ModeSpecific_ReferenceMove.vi"/>
 		</Item>
-		<Item Name="Controlword_Commands.ctl" Type="VI" URL="../Controlword_Commands.ctl"/>
-		<Item Name="StateMachine.ctl" Type="VI" URL="../StateMachine.ctl"/>
 	</Item>
-	<Item Name="Mode.ctl" Type="VI" URL="../Mode.ctl"/>
-	<Item Name="MotionIO.ctl" Type="VI" URL="../MotionIO.ctl"/>
-	<Item Name="Read_Trajectory.ctl" Type="VI" URL="../Read_Trajectory.ctl"/>
 </Library>

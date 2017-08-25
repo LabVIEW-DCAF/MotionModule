@@ -6,6 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="ParameterManipulation" Type="Folder">
 		<Item Name="Position_Test.vi" Type="VI" URL="../Position_Test.vi"/>
+		<Item Name="Reference_Test.vi" Type="VI" URL="../Reference_Test.vi"/>
 	</Item>
 	<Item Name="WordManipulation" Type="Folder">
 		<Item Name="Test_Commands.vi" Type="VI" URL="../Test_Commands.vi"/>
