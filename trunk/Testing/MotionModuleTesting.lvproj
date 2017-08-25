@@ -28,9 +28,8 @@
 			<Property Name="softmotionID:0" Type="Str">{C89C22D6-09D8-451c-B54B-BE98A931F881}</Property>
 			<Property Name="vendorID:0" Type="Int">0</Property>
 		</Item>
-		<Item Name="DemoSequencer.lvlib" Type="Library" URL="../DemoSequencer.lvlib"/>
+		<Item Name="DemoSequencer.lvlib" Type="Library" URL="../Old_Tests/DemoSequencer.lvlib"/>
 		<Item Name="Motion_subsystem.vi" Type="VI" URL="../../SoftmotionClass/Motion_subsystem.vi"/>
-		<Item Name="Update_Reference.vi" Type="VI" URL="../../SoftmotionClass/SoftmotionAxis/Update_Reference.vi"/>
 		<Item Name="WordManipulationTests.lvlib" Type="Library" URL="../WordManipulationTests.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -39,17 +38,15 @@
 				<Item Name="nimc.create.vi" Type="VI" URL="/&lt;vilib&gt;/Motion/PropertyNodes/nimc.create.vi"/>
 			</Item>
 			<Item Name="Bit Manipulation.lvlib" Type="Library" URL="../../Utilities/Bit Manipulation.lvlib"/>
-			<Item Name="CommandToControlWord.vi" Type="VI" URL="../../MotionModuleUtilities/CommandToControlWord.vi"/>
-			<Item Name="Controlword_Commands.ctl" Type="VI" URL="../../MotionModuleUtilities/Controlword_Commands.ctl"/>
-			<Item Name="ControlwordToCommand.vi" Type="VI" URL="../../MotionModuleUtilities/ControlwordToCommand.vi"/>
+			<Item Name="GetModeAndParameters.vi" Type="VI" URL="../../Utilities/GetModeAndParameters.vi"/>
 			<Item Name="nimclv.dll" Type="Document" URL="/&lt;nishared&gt;/SoftMotion/17.0/nimclv.dll"/>
-			<Item Name="Parameters_BuildPositionMove.vi" Type="VI" URL="../../MotionModuleUtilities/Parameters_BuildPositionMove.vi"/>
-			<Item Name="Parameters_GetPositionParams.vi" Type="VI" URL="../../MotionModuleUtilities/Parameters_GetPositionParams.vi"/>
+			<Item Name="Parameters_BuildPositionMove.vi" Type="VI" URL="../../Utilities/Parameters_BuildPositionMove.vi"/>
+			<Item Name="Parameters_BuildReference.vi" Type="VI" URL="../../Utilities/Parameters_BuildReference.vi"/>
+			<Item Name="Parameters_GetHomingParams.vi" Type="VI" URL="../../Utilities/Parameters_GetHomingParams.vi"/>
+			<Item Name="Parameters_GetPositionParams.vi" Type="VI" URL="../../Utilities/Parameters_GetPositionParams.vi"/>
+			<Item Name="ReferenceMoveParameters.ctl" Type="VI" URL="../../Utilities/ReferenceMoveParameters.ctl"/>
 			<Item Name="SoftmotionAxis.lvclass" Type="LVClass" URL="../../SoftmotionClass/SoftmotionAxis/SoftmotionAxis.lvclass"/>
-			<Item Name="StateMachine.ctl" Type="VI" URL="../../MotionModuleUtilities/StateMachine.ctl"/>
 			<Item Name="StateMachineStatus.ctl" Type="VI" URL="../../Utilities/StateMachineStatus.ctl"/>
-			<Item Name="StateToStatusword.vi" Type="VI" URL="../../MotionModuleUtilities/StateToStatusword.vi"/>
-			<Item Name="StatuswordToState.vi" Type="VI" URL="../../MotionModuleUtilities/StatuswordToState.vi"/>
 			<Item Name="WordManipulationLibrary.lvlib" Type="Library" URL="../../Utilities/WordManipulationLibrary.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
