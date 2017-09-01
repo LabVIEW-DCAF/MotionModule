@@ -29,11 +29,94 @@ Each instance of the module commands one axis or coordinate system.
   The project leans heavily on the DS 402 standard because it is a tag-based motion scheme. This means that a new communication scheme does not need to be created, and users familiar with the DS 402 standard should more easily understand this scheme. However, instead of creating a large amount of tags for the PDOs/SDOs, an array as Parameters and one as Results will be used. The Sequencer will then write and read those tags to switch the target mode or get motion I/O info, among other events.
 # Data Design
 ## Data Description
-- The Module needs access to 5 main pieces of data. First, it needs to have knowledge of what Axis it is communicating with. This is set up in the DCAF Configuration Editor.	<br />
+- The Module needs access to 5 main pieces of data **from the engine**. First, it needs to have knowledge of what Axis it is communicating with. This is set up in the DCAF Configuration Editor.	<br />
 - Second and third, a Controlword and Statusword are used to send commands to the module and receive status information back. These are done as per the DS402 standard. <br />
 - Fourth, a parameter array contains information on the command to execute when the Controlword contains a command to begin a move, or to read the parameters. The first element in the array is the Mode (Equivalent to PDO XXXX), the rest of the elements are interpreted as per this first element. <br />
 - Fifth, a results array contains information on the system. The first value is used to decide how to interpret the rest of the values. On every iteration where the Controlword is not asking the motion module to give back a specific result, it will return the status of the Motion I/O and the position, velocity and acceleration of the axis.<br />
   For the fourth and fifth element, the arrays will concatenate the information on each axis. <br />
+### Axis
+  The axis or coordinate system to be used is passed from the engine as a string. If the axis is a Softmotion axis, the API for creating references is passed this string and it creates the softmotion reference.
+### Controlword
+  The controlword is the main way that the engine commands the module. It is composed of a U16, where each bit has a specific meaning. The first 4 and bit 6 are generic, while the other ones are dependent on the mode - taken from the DS402 standard.<br />
+
+|Reserved | Reserved | Halt | Fault reset | Op Mode Specific | Enable Op | Quick Stop | Enable Voltage | Switch On|
+|---|---|---|---|---|---|---|---|---|
+|15-11|10-9|8|7|4-6|3|2|1|0|
+
+Command examples:<br />
+
+| Command :| Fault reset (7)| Enable Operation (3) | Quick stop (2) | Enable Voltage (1) | Switch on (0) |
+|----------|----------------|----------------------|----------------|--------------------|---------------|
+|Shutdown|0|x|1|1|0|
+|Switch On|0|0|1|1|1|
+|Disable Voltage|0|x|x|0|x|
+|Quick Stop|0|x|0|1|x|
+|Disable Op|0|0|1|1|1|
+|Enable Op|0|1|1|1|1|
+|Fault Reset|1|x|x|x|x|
+  
+### Statusword
+Similarly, the main communication back from the module is through the form of a Statusword, also as per the DS402 standard.
+
+| State                  |7|6|5|4| |3|2|1|0|
+|------------------------|-|-|-|-|-|-|-|-|-|
+| Not Ready to Switch On |x|0|x|x| |0|0|0|0|
+| Switch On Disabled     |x|1|x|x| |0|0|0|0|
+| Ready to Switch On     |x|0|1|x| |0|0|0|1|
+| Switched On            |x|0|1|x| |0|0|1|1|
+| Op Enabled             |x|0|1|x| |0|1|1|1|
+| Quick Stop Active      |x|0|0|x| |0|1|1|1|
+| Fault Reaction Active  |x|0|x|x| |1|1|1|1|
+| Fault                  |x|0|x|x| |1|0|0|0|
+
+### Parameters
+
+The parameters array is interpreted depending on the type of move to be done. The first value in the array is the mode itself. Note that some lists for the subarrays start with 1. It refers to the element number, not the array index. So, Position Profile Mode, for example, the element "mode" is the element number 1 in the array, so index 0.<br />
+
+0. Reserved
+1. Profile Position Mode
+2. Velocity Mode
+3. Profile Velocity Mode
+4. Profile Torque Mode
+5. Reserved 2 (Numbered as 2 because the internal representation of the value, LabVIEW enum, does not allow for repeated names)
+6. Reference Mode
+7. Inteporlated Position Mode
+8. Skip (Internal message used to skip a command in the case of a status change)
+<br />
+
+1. Profile Position Mode
+    1. Mode
+    2. Position
+    3. Velocity
+    4. Acceleration
+    
+6. Reference Move Mode
+    1. Mode
+    2. Reference Type (home, limit, index, etc)
+    3. Start Search Forward? (bool)
+    4. Stop on Forward Edge? (bool)
+    5. Approach Forward? (bool)
+    7. Velocity
+    8. Acceleration
+### Results
+The results are populated in the array as per the following list. <br />
+
+0. Position Setpoint
+1. Position Feedback
+2. Velocity Feedback
+4. Motion I/O
+
+The Motion I/O is a double composed of a boolean array:
+1. Forward Limit Active
+2. Rev Limit Active
+3. Home Active
+4. Forward SW Limit Active
+5. Reverse SW Limit Active
+6. Drive Fault Active
+7. Drive Ready
+8. Target Reached Active
+
+
 # Component Design
   In this section, we take a closer look at what each component does in a more systematic way. If you gave a functional description in section 3.2, provide a summary of your algorithm for each  function listed in 3.2 in procedural description language (PDL) or pseudocode. If you gave an  OO description, summarize each object member function for all the objects listed in 3.2 in PDL or pseudocode. Describe any local data when necessary.
 # Human Interface Design
