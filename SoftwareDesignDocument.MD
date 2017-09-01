@@ -26,12 +26,12 @@ Each instance of the module commands one axis or coordinate system.
 - The first is the implementation of the moves and of the concept of an axis. This class is made to be overridden if you need to implement a different, non-softmotion axis.
 - The second is the motion module itself. This module implements a state machine similar to the DS-402 one.
 - The third is a set of tools and APIs to make working DCAF Tags easier. Because the State Machine uses a DS 402 styled Controlword and Statusword, the project contains tools to go from a status to bits. Similarly, an API is created to facilitate passing parameters to the module and reading the results.
-**IMAGE HERE**<br />
+![SDD_DCAF_Commands_Image](https://github.com/LabVIEW-DCAF/MotionModule/blob/Documentation_Update/trunk/RepoResources/SDD_DCAF_Command.bmp)
 ## Design Rationale
   The project leans heavily on the DS 402 standard because it is a tag-based motion scheme. This means that a new communication scheme does not need to be created, and users familiar with the DS 402 standard should more easily understand this scheme. However, instead of creating a large amount of tags for the PDOs/SDOs, an array as Parameters and one as Results will be used. The Sequencer will then write and read those tags to switch the target mode or get motion I/O info, among other events.
 # Data Design
 ## Data Description
-- The Module needs access to 5 main pieces of data **from the engine**. First, it needs to have knowledge of what Axis it is communicating with. This is set up in the DCAF Configuration Editor.	<br />
+- The Module needs access to 5 main pieces of data **from the engine**. First, it needs to have knowledge of what Axis it is communicating with. This is set up in the DCAF Configuration Editor. Note that the user should not need to manipulate these words. Instead, a series of utilities (such as Command to Word, or Word to Command, or Status to Word) will act as a translation layer as per the diagram above.	<br />
 - Second and third, a Controlword and Statusword are used to send commands to the module and receive status information back. These are done as per the DS402 standard. <br />
 - Fourth, a parameter array contains information on the command to execute when the Controlword contains a command to begin a move, or to read the parameters. The first element in the array is the Mode (Equivalent to PDO XXXX), the rest of the elements are interpreted as per this first element. <br />
 - Fifth, a results array contains information on the system. The first value is used to decide how to interpret the rest of the values. On every iteration where the Controlword is not asking the motion module to give back a specific result, it will return the status of the Motion I/O and the position, velocity and acceleration of the axis.<br />
