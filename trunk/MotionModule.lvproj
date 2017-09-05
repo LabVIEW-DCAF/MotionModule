@@ -153,6 +153,7 @@
 			<Item Name="nimclv.dll" Type="Document" URL="/&lt;nishared&gt;/SoftMotion/17.0/nimclv.dll"/>
 			<Item Name="WordManipulationLibrary.lvlib" Type="Library" URL="../Utilities/WordManipulationLibrary.lvlib"/>
 			<Item Name="Bit Manipulation.lvlib" Type="Library" URL="../Utilities/Bit Manipulation.lvlib"/>
+			<Item Name="ProjectUtilities.lvlib" Type="Library" URL="../Utilities/ProjectUtilities.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
