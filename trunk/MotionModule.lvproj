@@ -142,6 +142,7 @@
 				<Item Name="nimc.create.vi" Type="VI" URL="/&lt;vilib&gt;/Motion/PropertyNodes/nimc.create.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
+				<Item Name="nimc.destroy.vi" Type="VI" URL="/&lt;vilib&gt;/Motion/PropertyNodes/nimc.destroy.vi"/>
 			</Item>
 			<Item Name="SoftmotionAxis.lvclass" Type="LVClass" URL="../SoftmotionClass/SoftmotionAxis/SoftmotionAxis.lvclass"/>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
@@ -150,7 +151,6 @@
 			<Item Name="System.Drawing" Type="Document" URL="System.Drawing">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="nimclv.dll" Type="Document" URL="/&lt;nishared&gt;/SoftMotion/17.0/nimclv.dll"/>
 			<Item Name="WordManipulationLibrary.lvlib" Type="Library" URL="../Utilities/WordManipulationLibrary.lvlib"/>
 			<Item Name="Bit Manipulation.lvlib" Type="Library" URL="../Utilities/Bit Manipulation.lvlib"/>
 			<Item Name="ProjectUtilities.lvlib" Type="Library" URL="../Utilities/ProjectUtilities.lvlib"/>
