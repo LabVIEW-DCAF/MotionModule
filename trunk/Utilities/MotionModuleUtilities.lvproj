@@ -22,6 +22,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Bit Manipulation.lvlib" Type="Library" URL="../Bit Manipulation.lvlib"/>
 		<Item Name="WordManipulationLibrary.lvlib" Type="Library" URL="../WordManipulationLibrary.lvlib"/>
+		<Item Name="ProjectUtilities.lvlib" Type="Library" URL="../ProjectUtilities.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
