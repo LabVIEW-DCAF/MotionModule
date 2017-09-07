@@ -73,7 +73,9 @@ Similarly, the main communication back from the module is through the form of a 
 
 ### Parameters
 
-The parameters array is interpreted depending on the type of move to be done. The first value in the array is the mode itself. Note that some lists for the subarrays start with 1. It refers to the element number, not the array index. So, Position Profile Mode, for example, the element "mode" is the element number 1 in the array, so index 0.<br />
+  The parameters array is interpreted depending on the type of move to be done. This array is created by the utilities "Parameters_Build_XXXX" such as "Parameters_Build_PositionMove.vi". The first value in the array is the mode itself. <br />
+ 
+  Note that some lists for the subarrays start with 1. It refers to the element number, not the array index. So, Position Profile Mode, for example, the element "mode" is the element number 1 in the array, so index 0.<br />
 
 0. Reserved
 1. Profile Position Mode
@@ -88,18 +90,22 @@ The parameters array is interpreted depending on the type of move to be done. Th
 
 1. Profile Position Mode
     1. Mode
-    2. Position
+    2. Reserved
     3. Velocity
     4. Acceleration
+    5. Acceleration Jerk (Unused)
+    6. Positions [] (Array)
     
 6. Reference Move Mode
     1. Mode
-    2. Reference Type (home, limit, index, etc)
-    3. Start Search Forward? (bool)
-    4. Stop on Forward Edge? (bool)
-    5. Approach Forward? (bool)
-    7. Velocity
-    8. Acceleration
+    2. Axis to command
+    3. Reference Type (home, limit, index, etc)
+    4. Start Search Forward? (bool)
+    5. Stop on Forward Edge? (bool)
+    6. Approach Forward? (bool)
+    8. Velocity
+    9. Acceleration
+    
 ### Results
 The results are populated in the array as per the following list. <br />
 
