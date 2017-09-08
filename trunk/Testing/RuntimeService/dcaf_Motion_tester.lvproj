@@ -2,23 +2,23 @@
 <Project Type="Project" LVVersion="17008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
-	<Property Name="varPersistentID:{05DF4156-FC28-42A4-809E-EE4BBE6021C5}" Type="Ref">/NI-IC-3173-01C00BDA/EtherCAT Master/Device/Inputs-Latch Status</Property>
-	<Property Name="varPersistentID:{11D3A60C-2ABF-402A-A476-7E9EFD1AC7A7}" Type="Ref">/NI-IC-3173-01C00BDA/EtherCAT Master/Device/Outputs-Target torque</Property>
-	<Property Name="varPersistentID:{16EAA01E-65E6-41FE-A642-99FD416D6A83}" Type="Ref">/NI-IC-3173-01C00BDA/EtherCAT Master/Device/Inputs-Status word</Property>
-	<Property Name="varPersistentID:{2196AD82-0552-4C0B-822C-4F89703D0ECD}" Type="Ref">/NI-IC-3173-01C00BDA/EtherCAT Master/Device/Outputs-Digital Outputs</Property>
-	<Property Name="varPersistentID:{37D1701E-3D5C-4ECF-8DEC-AC8E5E1B9D18}" Type="Ref">/NI-IC-3173-01C00BDA/EtherCAT Master/Device/Inputs-Velocity Actual Value</Property>
-	<Property Name="varPersistentID:{46DA6424-8C12-4EA5-A758-8075C799E816}" Type="Ref">/NI-IC-3173-01C00BDA/EtherCAT Master/Device/Inputs-AIN.VALUE</Property>
-	<Property Name="varPersistentID:{6353CB52-42F5-4B09-95FB-B241C46B107A}" Type="Ref">/NI-IC-3173-01C00BDA/EtherCAT Master/Device/Inputs-Second Position Feedback</Property>
-	<Property Name="varPersistentID:{6FA62E4E-D96D-49A2-A7A0-8D1CB7D60CFB}" Type="Ref">/NI-IC-3173-01C00BDA/EtherCAT Master/Device/Inputs-Digital Inputs</Property>
-	<Property Name="varPersistentID:{7C21F010-1D6D-4441-BA16-88A5FD19FA1C}" Type="Ref">/NI-IC-3173-01C00BDA/EtherCAT Master/Device/Inputs-Following Error Actual Value</Property>
-	<Property Name="varPersistentID:{7D252858-A61C-457A-B8B3-FCD602F907B0}" Type="Ref">/NI-IC-3173-01C00BDA/EtherCAT Master/Device/Inputs-Latch 1P</Property>
-	<Property Name="varPersistentID:{8115E87C-39E8-4D7F-BE05-CA95846E2767}" Type="Ref">/NI-IC-3173-01C00BDA/EtherCAT Master/Device/Outputs-ClearDigInputChangedBit</Property>
-	<Property Name="varPersistentID:{83CEACEB-3CFD-4D8D-A83F-1FE0343EFED1}" Type="Ref">/NI-IC-3173-01C00BDA/EtherCAT Master/Device/Outputs-Target velocity</Property>
-	<Property Name="varPersistentID:{95A1B750-88FD-49FC-B336-4649839DD653}" Type="Ref">/NI-IC-3173-01C00BDA/EtherCAT Master/Device/Outputs-Interpolation Data Record</Property>
-	<Property Name="varPersistentID:{9D167552-F2A2-44A8-9A04-50B034D86B82}" Type="Ref">/NI-IC-3173-01C00BDA/EtherCAT Master/Device/Outputs-Latch Control Word</Property>
-	<Property Name="varPersistentID:{9D706E0E-5026-4414-B40B-C1A3F85101D7}" Type="Ref">/NI-IC-3173-01C00BDA/EtherCAT Master/Device/Inputs-Torque Actual Value</Property>
-	<Property Name="varPersistentID:{BA601F11-A7A2-44F3-AC24-3A5C3A761BAD}" Type="Ref">/NI-IC-3173-01C00BDA/EtherCAT Master/Device/Inputs-Position Actual Internal Value</Property>
-	<Property Name="varPersistentID:{DD40C04A-D6E6-4D42-A645-173FF6AA0B7C}" Type="Ref">/NI-IC-3173-01C00BDA/EtherCAT Master/Device/Outputs-Control word</Property>
+	<Property Name="varPersistentID:{05DF4156-FC28-42A4-809E-EE4BBE6021C5}" Type="Ref">/IC_old/EtherCAT Master/Device/Inputs-Latch Status</Property>
+	<Property Name="varPersistentID:{11D3A60C-2ABF-402A-A476-7E9EFD1AC7A7}" Type="Ref">/IC_old/EtherCAT Master/Device/Outputs-Target torque</Property>
+	<Property Name="varPersistentID:{16EAA01E-65E6-41FE-A642-99FD416D6A83}" Type="Ref">/IC_old/EtherCAT Master/Device/Inputs-Status word</Property>
+	<Property Name="varPersistentID:{2196AD82-0552-4C0B-822C-4F89703D0ECD}" Type="Ref">/IC_old/EtherCAT Master/Device/Outputs-Digital Outputs</Property>
+	<Property Name="varPersistentID:{37D1701E-3D5C-4ECF-8DEC-AC8E5E1B9D18}" Type="Ref">/IC_old/EtherCAT Master/Device/Inputs-Velocity Actual Value</Property>
+	<Property Name="varPersistentID:{46DA6424-8C12-4EA5-A758-8075C799E816}" Type="Ref">/IC_old/EtherCAT Master/Device/Inputs-AIN.VALUE</Property>
+	<Property Name="varPersistentID:{6353CB52-42F5-4B09-95FB-B241C46B107A}" Type="Ref">/IC_old/EtherCAT Master/Device/Inputs-Second Position Feedback</Property>
+	<Property Name="varPersistentID:{6FA62E4E-D96D-49A2-A7A0-8D1CB7D60CFB}" Type="Ref">/IC_old/EtherCAT Master/Device/Inputs-Digital Inputs</Property>
+	<Property Name="varPersistentID:{7C21F010-1D6D-4441-BA16-88A5FD19FA1C}" Type="Ref">/IC_old/EtherCAT Master/Device/Inputs-Following Error Actual Value</Property>
+	<Property Name="varPersistentID:{7D252858-A61C-457A-B8B3-FCD602F907B0}" Type="Ref">/IC_old/EtherCAT Master/Device/Inputs-Latch 1P</Property>
+	<Property Name="varPersistentID:{8115E87C-39E8-4D7F-BE05-CA95846E2767}" Type="Ref">/IC_old/EtherCAT Master/Device/Outputs-ClearDigInputChangedBit</Property>
+	<Property Name="varPersistentID:{83CEACEB-3CFD-4D8D-A83F-1FE0343EFED1}" Type="Ref">/IC_old/EtherCAT Master/Device/Outputs-Target velocity</Property>
+	<Property Name="varPersistentID:{95A1B750-88FD-49FC-B336-4649839DD653}" Type="Ref">/IC_old/EtherCAT Master/Device/Outputs-Interpolation Data Record</Property>
+	<Property Name="varPersistentID:{9D167552-F2A2-44A8-9A04-50B034D86B82}" Type="Ref">/IC_old/EtherCAT Master/Device/Outputs-Latch Control Word</Property>
+	<Property Name="varPersistentID:{9D706E0E-5026-4414-B40B-C1A3F85101D7}" Type="Ref">/IC_old/EtherCAT Master/Device/Inputs-Torque Actual Value</Property>
+	<Property Name="varPersistentID:{BA601F11-A7A2-44F3-AC24-3A5C3A761BAD}" Type="Ref">/IC_old/EtherCAT Master/Device/Inputs-Position Actual Internal Value</Property>
+	<Property Name="varPersistentID:{DD40C04A-D6E6-4D42-A645-173FF6AA0B7C}" Type="Ref">/IC_old/EtherCAT Master/Device/Outputs-Control word</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -135,8 +135,8 @@
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
-	<Item Name="NI-IC-3173-01C00BDA" Type="Real-Time Industrial Controller Target">
-		<Property Name="alias.name" Type="Str">NI-IC-3173-01C00BDA</Property>
+	<Item Name="IC_old" Type="Real-Time Industrial Controller Target">
+		<Property Name="alias.name" Type="Str">IC_old</Property>
 		<Property Name="alias.value" Type="Str">10.1.128.154</Property>
 		<Property Name="CCSymbols" Type="Str">VISION_TARGET_TYPE,IC;TARGET_TYPE,RT;OS,Linux;CPU,x64;DeviceCode,77AD;</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
@@ -585,6 +585,106 @@ AddOutputFilter chunkFilter
 				</Item>
 			</Item>
 		</Item>
+		<Item Name="Dependencies" Type="Dependencies"/>
+		<Item Name="Build Specifications" Type="Build"/>
+	</Item>
+	<Item Name="RT CompactRIO Target" Type="RT CompactRIO">
+		<Property Name="alias.name" Type="Str">RT CompactRIO Target</Property>
+		<Property Name="alias.value" Type="Str">10.1.128.208</Property>
+		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,ARM;DeviceCode,76D6;</Property>
+		<Property Name="crio.ControllerPID" Type="Str">76D6</Property>
+		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
+		<Property Name="host.ResponsivenessCheckPingDelay" Type="UInt">5000</Property>
+		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
+		<Property Name="host.TargetCPUID" Type="UInt">8</Property>
+		<Property Name="host.TargetOSID" Type="UInt">8</Property>
+		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
+		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
+		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
+		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
+		<Property Name="target.IOScan.Faults" Type="Str">1.0,0;</Property>
+		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
+		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
+		<Property Name="target.IOScan.Period" Type="UInt">1000</Property>
+		<Property Name="target.IOScan.PowerupMode" Type="UInt">0</Property>
+		<Property Name="target.IOScan.Priority" Type="UInt">0</Property>
+		<Property Name="target.IOScan.ReportModeConflict" Type="Bool">true</Property>
+		<Property Name="target.IOScan.StartEngineOnDeploy" Type="Bool">false</Property>
+		<Property Name="target.IsRemotePanelSupported" Type="Bool">true</Property>
+		<Property Name="target.RTCPULoadMonitoringEnabled" Type="Bool">true</Property>
+		<Property Name="target.RTDebugWebServerHTTPPort" Type="Int">8001</Property>
+		<Property Name="target.RTTarget.ApplicationPath" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
+		<Property Name="target.RTTarget.EnableFileSharing" Type="Bool">true</Property>
+		<Property Name="target.RTTarget.IPAccess" Type="Str">+*</Property>
+		<Property Name="target.RTTarget.LaunchAppAtBoot" Type="Bool">false</Property>
+		<Property Name="target.RTTarget.VIPath" Type="Path">/home/lvuser/natinst/bin</Property>
+		<Property Name="target.server.app.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="target.server.control.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="target.server.tcp.access" Type="Str">+*</Property>
+		<Property Name="target.server.tcp.enabled" Type="Bool">false</Property>
+		<Property Name="target.server.tcp.paranoid" Type="Bool">true</Property>
+		<Property Name="target.server.tcp.port" Type="Int">3363</Property>
+		<Property Name="target.server.tcp.serviceName" Type="Str">Main Application Instance/VI Server</Property>
+		<Property Name="target.server.tcp.serviceName.default" Type="Str">Main Application Instance/VI Server</Property>
+		<Property Name="target.server.vi.access" Type="Str">+*</Property>
+		<Property Name="target.server.vi.callsEnabled" Type="Bool">true</Property>
+		<Property Name="target.server.vi.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="target.WebServer.Config" Type="Str">Listen 8000
+
+NI.ServerName default
+DocumentRoot "$LVSERVER_DOCROOT"
+TypesConfig "$LVSERVER_CONFIGROOT/mime.types"
+DirectoryIndex index.htm
+WorkerLimit 10
+InactivityTimeout 60
+
+LoadModulePath "$LVSERVER_MODULEPATHS"
+LoadModule LVAuth lvauthmodule
+LoadModule LVRFP lvrfpmodule
+
+#
+# Pipeline Definition
+#
+
+SetConnector netConnector
+
+AddHandler LVAuth
+AddHandler LVRFP
+
+AddHandler fileHandler ""
+
+AddOutputFilter chunkFilter
+
+
+</Property>
+		<Property Name="target.WebServer.Enabled" Type="Bool">false</Property>
+		<Property Name="target.WebServer.LogEnabled" Type="Bool">false</Property>
+		<Property Name="target.WebServer.LogPath" Type="Path">/c/ni-rt/system/www/www.log</Property>
+		<Property Name="target.WebServer.Port" Type="Int">80</Property>
+		<Property Name="target.WebServer.RootPath" Type="Path">/c/ni-rt/system/www</Property>
+		<Property Name="target.WebServer.TcpAccess" Type="Str">c+*</Property>
+		<Property Name="target.WebServer.Timeout" Type="Int">60</Property>
+		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
+		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
+		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
+		<Item Name="Axis 1" Type="Motion Axis">
+			<Property Name="axis.class:0" Type="Int">10551365</Property>
+			<Property Name="axis.SMVersion" Type="Int">201310</Property>
+			<Property Name="deviceID:0" Type="Int">0</Property>
+			<Property Name="resource.type:0" Type="Int">10551297</Property>
+			<Property Name="resourceID:0" Type="Str">{4ECA75A6-DCEB-40E4-A86D-FB10D1699B51}</Property>
+			<Property Name="softmotionID:0" Type="Str">{C89C22D6-09D8-451c-B54B-BE98A931F881}</Property>
+			<Property Name="vendorID:0" Type="Int">0</Property>
+		</Item>
+		<Item Name="Chassis" Type="cRIO Chassis">
+			<Property Name="crio.ProgrammingMode" Type="Str">express</Property>
+			<Property Name="crio.ResourceID" Type="Str">RIO0</Property>
+			<Property Name="crio.Type" Type="Str">cRIO-9068</Property>
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Real-Time Scan Resources" Type="Module Container">
+				<Property Name="crio.ModuleContainerType" Type="Str">crio.RSIModuleContainer</Property>
+			</Item>
+		</Item>
 		<Item Name="RT Main.vi" Type="VI" URL="../RT Main.vi"/>
 		<Item Name="RT Module Includes.vi" Type="VI" URL="../RT Module Includes.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -617,6 +717,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="Get Scan Engine Mode.vi" Type="VI" URL="/&lt;vilib&gt;/NIScanEngine/ScanEngine/Get Scan Engine Mode.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
+				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
@@ -633,6 +734,7 @@ AddOutputFilter chunkFilter
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_Real-Time Target Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI_Real-Time Target Support.lvlib"/>
 				<Item Name="nimc.create.vi" Type="VI" URL="/&lt;vilib&gt;/Motion/PropertyNodes/nimc.create.vi"/>
+				<Item Name="nimc.destroy.vi" Type="VI" URL="/&lt;vilib&gt;/Motion/PropertyNodes/nimc.destroy.vi"/>
 				<Item Name="NISE_CEF_serializable configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Configuration Framework/serializable configuration/NISE_CEF_serializable configuration.lvclass"/>
 				<Item Name="NISE_CEF_TreeSerializer.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Configuration Framework/tree serializer/NISE_CEF_TreeSerializer.lvlib"/>
 				<Item Name="NISE_error generator.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Configuration Framework/error generator/NISE_error generator.vi"/>
@@ -652,6 +754,7 @@ AddOutputFilter chunkFilter
 				<Item Name="Standard Engine Configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Engines/Standard Engine/Execution Engine/Configuration/Standard Engine Configuration.lvclass"/>
 				<Item Name="Standard Engine Runtime.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Engines/Standard Engine/Execution Engine/runtime/Standard Engine Runtime.lvclass"/>
 				<Item Name="Synchronize to Scan Engine.vi" Type="VI" URL="/&lt;vilib&gt;/NIScanEngine/ScanEngine/Synchronize to Scan Engine.vi"/>
+				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="tag bus.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tag Bus/tag bus.lvlib"/>
 				<Item Name="tag select module configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Modules/Tag Select Module/module/configuration/tag select module configuration.lvclass"/>
 				<Item Name="tag select module runtime.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Modules/Tag Select Module/module/execution/tag select module runtime.lvclass"/>
@@ -673,12 +776,13 @@ AddOutputFilter chunkFilter
 				<Item Name="write syslog.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Syslog Wrapper - Linux/write syslog.vi"/>
 			</Item>
 			<Item Name="Bit Manipulation.lvlib" Type="Library" URL="../../../Utilities/Bit Manipulation.lvlib"/>
+			<Item Name="DumpToLog.vi" Type="VI" URL="../../../DumpToLog.vi"/>
 			<Item Name="lvalarms.dll" Type="Document" URL="lvalarms.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="MotionModule configuration.lvclass" Type="LVClass" URL="../../../module/configuration/MotionModule configuration.lvclass"/>
 			<Item Name="MotionModule runtime.lvclass" Type="LVClass" URL="../../../module/execution/MotionModule runtime.lvclass"/>
-			<Item Name="nimclv.dll" Type="Document" URL="/&lt;nishared&gt;/SoftMotion/17.0/nimclv.dll"/>
+			<Item Name="ProjectUtilities.lvlib" Type="Library" URL="../../../Utilities/ProjectUtilities.lvlib"/>
 			<Item Name="SoftmotionAxis.lvclass" Type="LVClass" URL="../../../SoftmotionClass/SoftmotionAxis/SoftmotionAxis.lvclass"/>
 			<Item Name="WordManipulationLibrary.lvlib" Type="Library" URL="../../../Utilities/WordManipulationLibrary.lvlib"/>
 		</Item>

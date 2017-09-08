@@ -140,9 +140,9 @@
 				<Item Name="Get Scan Engine Mode.vi" Type="VI" URL="/&lt;vilib&gt;/NIScanEngine/ScanEngine/Get Scan Engine Mode.vi"/>
 				<Item Name="IOV engine refnum from target address.vi" Type="VI" URL="/&lt;vilib&gt;/NIScanEngine/ScanEngine/IOV engine refnum from target address.vi"/>
 				<Item Name="nimc.create.vi" Type="VI" URL="/&lt;vilib&gt;/Motion/PropertyNodes/nimc.create.vi"/>
+				<Item Name="nimc.destroy.vi" Type="VI" URL="/&lt;vilib&gt;/Motion/PropertyNodes/nimc.destroy.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
-				<Item Name="nimc.destroy.vi" Type="VI" URL="/&lt;vilib&gt;/Motion/PropertyNodes/nimc.destroy.vi"/>
 			</Item>
 			<Item Name="SoftmotionAxis.lvclass" Type="LVClass" URL="../SoftmotionClass/SoftmotionAxis/SoftmotionAxis.lvclass"/>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
