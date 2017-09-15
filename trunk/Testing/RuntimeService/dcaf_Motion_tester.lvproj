@@ -48,7 +48,7 @@
 		</Item>
 		<Item Name="Host Main.vi" Type="VI" URL="../Host Main.vi"/>
 		<Item Name="Host Module Includes.vi" Type="VI" URL="../Host Module Includes.vi"/>
-		<Item Name="UI.vi" Type="VI" URL="../../../UI.vi"/>
+		<Item Name="UI.vi" Type="VI" URL="../../UI.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -776,7 +776,11 @@ AddOutputFilter chunkFilter
 				<Item Name="write syslog.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Syslog Wrapper - Linux/write syslog.vi"/>
 			</Item>
 			<Item Name="Bit Manipulation.lvlib" Type="Library" URL="../../../Utilities/Bit Manipulation.lvlib"/>
+<<<<<<< HEAD
 			<Item Name="DumpToLog.vi" Type="VI" URL="../../../DumpToLog.vi"/>
+=======
+			<Item Name="DumpToLog.vi" Type="VI" URL="../../DumpToLog.vi"/>
+>>>>>>> Getting_Started_Experience
 			<Item Name="lvalarms.dll" Type="Document" URL="lvalarms.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

@@ -25,8 +25,8 @@
 		<Item Name="MotionModule configuration.lvclass" Type="LVClass" URL="../module/configuration/MotionModule configuration.lvclass"/>
 		<Item Name="MotionModule editor node.lvclass" Type="LVClass" URL="../editor node/MotionModule editor node.lvclass"/>
 		<Item Name="MotionModule runtime.lvclass" Type="LVClass" URL="../module/execution/MotionModule runtime.lvclass"/>
-		<Item Name="MotionModule tests.lvlib" Type="Library" URL="../Test/MotionModule tests.lvlib"/>
-		<Item Name="DumpToLog.vi" Type="VI" URL="../DumpToLog.vi"/>
+		<Item Name="MotionModule tests.lvlib" Type="Library" URL="../Testing/Motion Module Tests/MotionModule tests.lvlib"/>
+		<Item Name="DumpToLog.vi" Type="VI" URL="../Testing/DumpToLog.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="control module configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/control module/configuration/control module configuration.lvclass"/>
