@@ -41,10 +41,12 @@
 		<Item Name="Parameters_Build_CyclicSetpoint.vi" Type="VI" URL="../Parameters_Build_CyclicSetpoint.vi"/>
 		<Item Name="Parameters_Build_PositionMove.vi" Type="VI" URL="../Parameters_Build_PositionMove.vi"/>
 		<Item Name="Parameters_Build_Reference.vi" Type="VI" URL="../Parameters_Build_Reference.vi"/>
+		<Item Name="Parameters_Build_Stop.vi" Type="VI" URL="../Parameters_Build_Stop.vi"/>
 		<Item Name="Parameters_Get_Cyclic.vi" Type="VI" URL="../Parameters_Get_Cyclic.vi"/>
 		<Item Name="Parameters_Get_Mode.vi" Type="VI" URL="../Parameters_Get_Mode.vi"/>
 		<Item Name="Parameters_Get_Position.vi" Type="VI" URL="../Parameters_Get_Position.vi"/>
 		<Item Name="Parameters_Get_Reference.vi" Type="VI" URL="../Parameters_Get_Reference.vi"/>
+		<Item Name="Parameters_Get_Stop.vi" Type="VI" URL="../Parameters_Get_Stop.vi"/>
 	</Item>
 	<Item Name="ResultManitpulation" Type="Folder">
 		<Item Name="Controls" Type="Folder">
