@@ -1,23 +1,24 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="17008000">
+	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
-	<Property Name="varPersistentID:{2E307DEB-5200-4F0B-A95D-D662040CD7EF}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Outputs-Control word</Property>
-	<Property Name="varPersistentID:{3D49E3BF-679B-4D7D-96B8-6855C17E6F2B}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Inputs-Position Actual Internal Value</Property>
-	<Property Name="varPersistentID:{4ABC5282-69FB-41DC-A8F3-4253F98AA09D}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Inputs-Status word</Property>
-	<Property Name="varPersistentID:{58E329F6-FAB6-4959-97F2-E93C38ED42ED}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Inputs-Latch Status</Property>
-	<Property Name="varPersistentID:{6416EBDC-D457-4244-8899-440208D77EA4}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Outputs-Target torque</Property>
-	<Property Name="varPersistentID:{68E4F8F3-F658-4537-B945-5CB078621DAE}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Inputs-Digital Inputs</Property>
-	<Property Name="varPersistentID:{68EAE3A6-A9FF-4947-B2A8-FDFB9B6BC6FC}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Inputs-Velocity Actual Value</Property>
-	<Property Name="varPersistentID:{875E65B7-BD70-4591-B30F-0AAA19FF3355}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Inputs-Latch 1P</Property>
-	<Property Name="varPersistentID:{8AA522C9-58B1-4AEA-924B-6A0522E35656}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Outputs-ClearDigInputChangedBit</Property>
-	<Property Name="varPersistentID:{BB300713-7E81-415C-A60F-59895F217967}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Inputs-Following Error Actual Value</Property>
-	<Property Name="varPersistentID:{BC84309D-6ECB-4B72-B3B9-AE4E09878F79}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Outputs-Interpolation Data Record</Property>
-	<Property Name="varPersistentID:{D09DE4EC-DBE7-4528-97BE-4DF77D9D5383}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Outputs-Latch Control Word</Property>
-	<Property Name="varPersistentID:{F404F582-0CE6-4EB0-B97E-61A7C6CAD29C}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Outputs-Digital Outputs</Property>
-	<Property Name="varPersistentID:{F686A166-41D7-4D09-AE02-38810081A63D}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Outputs-Target velocity</Property>
-	<Property Name="varPersistentID:{F71B26A5-40A4-4FFC-88E0-F34B6A4A8426}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Inputs-AIN.VALUE</Property>
-	<Property Name="varPersistentID:{FAFEB849-A175-4D6B-BE7D-F2E278569F1D}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Inputs-Torque Actual Value</Property>
-	<Property Name="varPersistentID:{FE47B10A-60E0-48D1-BF28-EF1E81A03046}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Inputs-Second Position Feedback</Property>
+	<Property Name="varPersistentID:{132C059B-D38D-4270-9C1F-C797D8DF9CB5}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Outputs-Latch Control Word</Property>
+	<Property Name="varPersistentID:{1A4820F4-24D9-4A32-B2E2-9D1B656C30FE}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Outputs-Control word</Property>
+	<Property Name="varPersistentID:{45159DC0-F991-436B-BBE7-3CC0AFE95448}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Outputs-Interpolation Data Record</Property>
+	<Property Name="varPersistentID:{49DD3058-43B9-4F2E-8333-E5AAD7AC1BFD}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Inputs-Latch 1P</Property>
+	<Property Name="varPersistentID:{4DCFF9DC-8D52-4D9D-8173-714B130C7772}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Outputs-ClearDigInputChangedBit</Property>
+	<Property Name="varPersistentID:{5AE47D66-999E-4735-BFEA-C01E7E202EE8}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Inputs-Position Actual Internal Value</Property>
+	<Property Name="varPersistentID:{5CB6E188-E739-4765-84CA-EAAFBCAB0030}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Inputs-Digital Inputs</Property>
+	<Property Name="varPersistentID:{74CCF52A-9EA6-47A6-B97E-3E827B6B5D02}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Outputs-Target torque</Property>
+	<Property Name="varPersistentID:{8FA74FA7-FC03-4EE6-8325-4E00590DC569}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Inputs-Velocity Actual Value</Property>
+	<Property Name="varPersistentID:{A8CA3D74-B20B-4C9C-8BF2-9855F71D0E29}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Outputs-Digital Outputs</Property>
+	<Property Name="varPersistentID:{A8CFC068-3C89-4416-9847-951BCF965529}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Inputs-Status word</Property>
+	<Property Name="varPersistentID:{D214E059-0DF5-4A42-8467-6AFF09D458AD}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Inputs-Following Error Actual Value</Property>
+	<Property Name="varPersistentID:{D386CCBD-CDF9-49F3-8D1D-8B30E962FD5E}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Inputs-Latch Status</Property>
+	<Property Name="varPersistentID:{D6167718-33E4-452B-AE27-587730F3031E}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Inputs-Torque Actual Value</Property>
+	<Property Name="varPersistentID:{DF30CF5D-20E3-468B-8738-BB781DD30A59}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Inputs-Second Position Feedback</Property>
+	<Property Name="varPersistentID:{DFE962C7-8858-4808-8166-28BC0EA798AE}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Outputs-Target velocity</Property>
+	<Property Name="varPersistentID:{FAB34BB1-20AC-41EF-BD9A-2B87C00C2848}" Type="Ref">/RT CompactRIO Target/EtherCAT Master/Device/Inputs-AIN.VALUE</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -26,7 +27,7 @@
 		<Property Name="IOScan.PowerupMode" Type="UInt">0</Property>
 		<Property Name="IOScan.Priority" Type="UInt">9</Property>
 		<Property Name="IOScan.ReportModeConflict" Type="Bool">true</Property>
-		<Property Name="IOScan.StartEngineOnDeploy" Type="Bool">false</Property>
+		<Property Name="IOScan.StartEngineOnDeploy" Type="Bool">true</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -36,18 +37,16 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="MotionModule_Dev" Type="Folder"/>
-		<Item Name="SoftmotionAxis.lvclass" Type="LVClass" URL="../SoftmotionAxis/SoftmotionAxis.lvclass"/>
-		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Get Scan Engine Mode.vi" Type="VI" URL="/&lt;vilib&gt;/NIScanEngine/ScanEngine/Get Scan Engine Mode.vi"/>
-				<Item Name="IOV engine refnum from target address.vi" Type="VI" URL="/&lt;vilib&gt;/NIScanEngine/ScanEngine/IOV engine refnum from target address.vi"/>
-				<Item Name="nimc.create.vi" Type="VI" URL="/&lt;vilib&gt;/Motion/PropertyNodes/nimc.create.vi"/>
-				<Item Name="nimc.destroy.vi" Type="VI" URL="/&lt;vilib&gt;/Motion/PropertyNodes/nimc.destroy.vi"/>
-			</Item>
-			<Item Name="Bit Manipulation.lvlib" Type="Library" URL="../../Utilities/Bit Manipulation.lvlib"/>
-			<Item Name="WordManipulationLibrary.lvlib" Type="Library" URL="../../Utilities/WordManipulationLibrary.lvlib"/>
+		<Item Name="Axis1" Type="Motion Axis">
+			<Property Name="axis.class:0" Type="Int">10551365</Property>
+			<Property Name="axis.SMVersion" Type="Int">201310</Property>
+			<Property Name="deviceID:0" Type="Int">0</Property>
+			<Property Name="resource.type:0" Type="Int">10551297</Property>
+			<Property Name="resourceID:0" Type="Str">{2955AC1E-3468-4E45-A67D-C54A6F4BBB27}</Property>
+			<Property Name="softmotionID:0" Type="Str">{C89C22D6-09D8-451c-B54B-BE98A931F881}</Property>
+			<Property Name="vendorID:0" Type="Int">0</Property>
 		</Item>
+		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
 	<Item Name="RT CompactRIO Target" Type="RT CompactRIO">
@@ -129,96 +128,20 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="Axis 1" Type="Motion Axis">
+		<Item Name="Axis1" Type="Motion Axis">
 			<Property Name="axis.class:0" Type="Int">12714031</Property>
 			<Property Name="axis.mapping:0" Type="Str">EtherCAT Master\Device (Address 0, AKD)</Property>
 			<Property Name="axis.SMVersion" Type="Int">201310</Property>
 			<Property Name="deviceID:0" Type="Int">4279108</Property>
+			<Property Name="encoder.countsPerUnit:0" Type="Dbl">1000</Property>
+			<Property Name="interactivePanel.acceleration:0" Type="Dbl">1000</Property>
+			<Property Name="interactivePanel.deceleration:0" Type="Dbl">1000</Property>
+			<Property Name="interactivePanel.targetPosition:0" Type="Dbl">1000</Property>
+			<Property Name="interactivePanel.velocity:0" Type="Dbl">1000</Property>
 			<Property Name="resource.type:0" Type="Int">10551297</Property>
-			<Property Name="resourceID:0" Type="Str">{832B7E04-36F9-4C2B-81C7-2175BB58B9B5}</Property>
+			<Property Name="resourceID:0" Type="Str">{7A176F30-F01B-4893-887C-6BC8C2836850}</Property>
 			<Property Name="softmotionID:0" Type="Str">{C89C22D6-09D8-451c-B54B-BE98A931F881}</Property>
 			<Property Name="vendorID:0" Type="Int">106</Property>
-		</Item>
-		<Item Name="Axis 2" Type="Motion Axis">
-			<Property Name="axis.class:0" Type="Int">10551365</Property>
-			<Property Name="axis.SMVersion" Type="Int">201310</Property>
-			<Property Name="deviceID:0" Type="Int">0</Property>
-			<Property Name="resource.type:0" Type="Int">10551297</Property>
-			<Property Name="resourceID:0" Type="Str">{8ABD7A39-7369-4AEC-8068-29FE56102C41}</Property>
-			<Property Name="softmotionID:0" Type="Str">{C89C22D6-09D8-451c-B54B-BE98A931F881}</Property>
-			<Property Name="vendorID:0" Type="Int">0</Property>
-		</Item>
-		<Item Name="Axis 3" Type="Motion Axis">
-			<Property Name="axis.class:0" Type="Int">10551365</Property>
-			<Property Name="axis.SMVersion" Type="Int">201310</Property>
-			<Property Name="deviceID:0" Type="Int">0</Property>
-			<Property Name="resource.type:0" Type="Int">10551297</Property>
-			<Property Name="resourceID:0" Type="Str">{B933AFCA-2407-47DB-B0A3-C6967F027C66}</Property>
-			<Property Name="softmotionID:0" Type="Str">{C89C22D6-09D8-451c-B54B-BE98A931F881}</Property>
-			<Property Name="vendorID:0" Type="Int">0</Property>
-		</Item>
-		<Item Name="Axis 4" Type="Motion Axis">
-			<Property Name="axis.class:0" Type="Int">10551365</Property>
-			<Property Name="axis.SMVersion" Type="Int">201310</Property>
-			<Property Name="deviceID:0" Type="Int">0</Property>
-			<Property Name="resource.type:0" Type="Int">10551297</Property>
-			<Property Name="resourceID:0" Type="Str">{FD3B2C57-BACB-40D9-BB18-FC6826D9BB1A}</Property>
-			<Property Name="softmotionID:0" Type="Str">{C89C22D6-09D8-451c-B54B-BE98A931F881}</Property>
-			<Property Name="vendorID:0" Type="Int">0</Property>
-		</Item>
-		<Item Name="Axis 5" Type="Motion Axis">
-			<Property Name="axis.class:0" Type="Int">10551365</Property>
-			<Property Name="axis.SMVersion" Type="Int">201310</Property>
-			<Property Name="deviceID:0" Type="Int">0</Property>
-			<Property Name="resource.type:0" Type="Int">10551297</Property>
-			<Property Name="resourceID:0" Type="Str">{C7216D05-FDDD-4480-B845-714E48B06B22}</Property>
-			<Property Name="softmotionID:0" Type="Str">{C89C22D6-09D8-451c-B54B-BE98A931F881}</Property>
-			<Property Name="vendorID:0" Type="Int">0</Property>
-		</Item>
-		<Item Name="Axis 6" Type="Motion Axis">
-			<Property Name="axis.class:0" Type="Int">10551365</Property>
-			<Property Name="axis.SMVersion" Type="Int">201310</Property>
-			<Property Name="deviceID:0" Type="Int">0</Property>
-			<Property Name="resource.type:0" Type="Int">10551297</Property>
-			<Property Name="resourceID:0" Type="Str">{19EE38D3-AD07-4438-9137-2209300EE324}</Property>
-			<Property Name="softmotionID:0" Type="Str">{C89C22D6-09D8-451c-B54B-BE98A931F881}</Property>
-			<Property Name="vendorID:0" Type="Int">0</Property>
-		</Item>
-		<Item Name="Axis 7" Type="Motion Axis">
-			<Property Name="axis.class:0" Type="Int">10551365</Property>
-			<Property Name="axis.SMVersion" Type="Int">201310</Property>
-			<Property Name="deviceID:0" Type="Int">0</Property>
-			<Property Name="resource.type:0" Type="Int">10551297</Property>
-			<Property Name="resourceID:0" Type="Str">{E486607E-0767-4C65-92EE-0FDDFFFE4A75}</Property>
-			<Property Name="softmotionID:0" Type="Str">{C89C22D6-09D8-451c-B54B-BE98A931F881}</Property>
-			<Property Name="vendorID:0" Type="Int">0</Property>
-		</Item>
-		<Item Name="Axis 8" Type="Motion Axis">
-			<Property Name="axis.class:0" Type="Int">10551365</Property>
-			<Property Name="axis.SMVersion" Type="Int">201310</Property>
-			<Property Name="deviceID:0" Type="Int">0</Property>
-			<Property Name="resource.type:0" Type="Int">10551297</Property>
-			<Property Name="resourceID:0" Type="Str">{7E92D923-C812-4DE1-BA1F-4D764140A5B7}</Property>
-			<Property Name="softmotionID:0" Type="Str">{C89C22D6-09D8-451c-B54B-BE98A931F881}</Property>
-			<Property Name="vendorID:0" Type="Int">0</Property>
-		</Item>
-		<Item Name="Axis 9" Type="Motion Axis">
-			<Property Name="axis.class:0" Type="Int">10551365</Property>
-			<Property Name="axis.SMVersion" Type="Int">201310</Property>
-			<Property Name="deviceID:0" Type="Int">0</Property>
-			<Property Name="resource.type:0" Type="Int">10551297</Property>
-			<Property Name="resourceID:0" Type="Str">{6F01B58C-5526-42DB-9E9A-AAB75860031A}</Property>
-			<Property Name="softmotionID:0" Type="Str">{C89C22D6-09D8-451c-B54B-BE98A931F881}</Property>
-			<Property Name="vendorID:0" Type="Int">0</Property>
-		</Item>
-		<Item Name="Axis 10" Type="Motion Axis">
-			<Property Name="axis.class:0" Type="Int">10551365</Property>
-			<Property Name="axis.SMVersion" Type="Int">201310</Property>
-			<Property Name="deviceID:0" Type="Int">0</Property>
-			<Property Name="resource.type:0" Type="Int">10551297</Property>
-			<Property Name="resourceID:0" Type="Str">{D7D40FAC-C3A4-4BAA-AEB3-371C810E8F7E}</Property>
-			<Property Name="softmotionID:0" Type="Str">{C89C22D6-09D8-451c-B54B-BE98A931F881}</Property>
-			<Property Name="vendorID:0" Type="Int">0</Property>
 		</Item>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">express</Property>
@@ -227,16 +150,8 @@ AddOutputFilter chunkFilter
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Real-Time Scan Resources" Type="Module Container">
 				<Property Name="crio.ModuleContainerType" Type="Str">crio.RSIModuleContainer</Property>
+				<Item Name="User-Defined Variables" Type="cRIO IO Variable Container"/>
 			</Item>
-		</Item>
-		<Item Name="CheckErrors_Benchmark.vi" Type="VI" URL="../../Testing/Benchmarking/CheckErrors_Benchmark.vi"/>
-		<Item Name="Coordinate Space 1" Type="Motion Coordinate Space">
-			<Property Name="axes:0:0" Type="Str">Axis 1</Property>
-			<Property Name="axes:0:1" Type="Str">Axis 2</Property>
-			<Property Name="axes:0:Size" Type="UInt">2</Property>
-			<Property Name="resource.type:0" Type="Int">10551313</Property>
-			<Property Name="resourceID:0" Type="Str">{69FFC88A-5FD7-47B0-97DC-D86A6A138220}</Property>
-			<Property Name="softmotionID:0" Type="Str">{C89C22D6-09D8-451c-B54B-BE98A931F881}</Property>
 		</Item>
 		<Item Name="EtherCAT Master" Type="ECATMaster">
 			<Property Name="ECAT.Adapter.Index" Type="UInt">0</Property>
@@ -599,22 +514,110 @@ AddOutputFilter chunkFilter
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="Read_Benchmark.vi" Type="VI" URL="../../Testing/Benchmarking/Read_Benchmark.vi"/>
+		<Item Name="Host Main.vi" Type="VI" URL="../Host Main.vi"/>
+		<Item Name="Host Module Includes.vi" Type="VI" URL="../Host Module Includes.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
+				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
+				<Item Name="class discovery singleton.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Configuration Framework/class discovery singleton/class discovery singleton.lvlib"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="control module configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/control module/configuration/control module configuration.lvclass"/>
+				<Item Name="control module runtime.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/control module/runtime/control module runtime.lvclass"/>
+				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Current Value Table.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Current Value Table/Current Value Table.lvlib"/>
+				<Item Name="CVT configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Modules/CVT Access/configuration/CVT configuration.lvclass"/>
+				<Item Name="CVT runtime.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Modules/CVT Access/execution/CVT runtime.lvclass"/>
+				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
+				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
+				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="engine configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Module Execution Interface/Engine Configuration/engine configuration.lvclass"/>
+				<Item Name="Engine Runtime Interface.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Module Execution Interface/Engine Runtime/Engine Runtime Interface.lvclass"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
+				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
+				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
+				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
+				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
+				<Item Name="FPGA manager.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tag Bus Module Framework/FPGA manager/FPGA manager.lvlib"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
+				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
+				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
+				<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value By Name.vi"/>
+				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
+				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="Get Scan Engine Mode.vi" Type="VI" URL="/&lt;vilib&gt;/NIScanEngine/ScanEngine/Get Scan Engine Mode.vi"/>
+				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
+				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
+				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
+				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
+				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="IOV engine refnum from target address.vi" Type="VI" URL="/&lt;vilib&gt;/NIScanEngine/ScanEngine/IOV engine refnum from target address.vi"/>
-				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
+				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="main engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/DCAF/Engines/Standard Engine/Execution Engine/main engine/main engine.lvlib"/>
+				<Item Name="ms timing source.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Module Timing Source/standard timing source/ms timing source.lvclass"/>
 				<Item Name="ni_emb.dll" Type="Document" URL="/&lt;vilib&gt;/ni_emb.dll"/>
+				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_Real-Time Target Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI_Real-Time Target Support.lvlib"/>
 				<Item Name="nimc.create.vi" Type="VI" URL="/&lt;vilib&gt;/Motion/PropertyNodes/nimc.create.vi"/>
 				<Item Name="nimc.destroy.vi" Type="VI" URL="/&lt;vilib&gt;/Motion/PropertyNodes/nimc.destroy.vi"/>
+				<Item Name="NISE_CEF_serializable configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Configuration Framework/serializable configuration/NISE_CEF_serializable configuration.lvclass"/>
+				<Item Name="NISE_CEF_TreeSerializer.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Configuration Framework/tree serializer/NISE_CEF_TreeSerializer.lvlib"/>
+				<Item Name="NISE_error generator.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Configuration Framework/error generator/NISE_error generator.vi"/>
+				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
+				<Item Name="PL_Serialization Interface.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/Framework Configuration Classes/flattened data interface/PL_Serialization Interface.lvlib"/>
+				<Item Name="PL_Target Configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/Framework Configuration Classes/target configuration/PL_Target Configuration.lvclass"/>
+				<Item Name="PL_Target Runtime.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/Framework Configuration Classes/target runtime/PL_Target Runtime.lvclass"/>
+				<Item Name="PLConfigurationSerializer.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/Framework Configuration Classes/platypus configuration/PLConfigurationSerializer.lvlib"/>
+				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
+				<Item Name="scan engine timing source.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Module Timing Source/scan engine timing source/scan engine timing source.lvclass"/>
+				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
+				<Item Name="Set Scan Engine Mode.vi" Type="VI" URL="/&lt;vilib&gt;/NIScanEngine/ScanEngine/Set Scan Engine Mode.vi"/>
+				<Item Name="Set Scan Engine Period.vi" Type="VI" URL="/&lt;vilib&gt;/NIScanEngine/ScanEngine/Set Scan Engine Period.vi"/>
+				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
+				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="Standard Engine Configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Engines/Standard Engine/Execution Engine/Configuration/Standard Engine Configuration.lvclass"/>
+				<Item Name="Standard Engine Runtime.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Engines/Standard Engine/Execution Engine/runtime/Standard Engine Runtime.lvclass"/>
+				<Item Name="Synchronize to Scan Engine.vi" Type="VI" URL="/&lt;vilib&gt;/NIScanEngine/ScanEngine/Synchronize to Scan Engine.vi"/>
+				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
+				<Item Name="tag bus.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tag Bus/tag bus.lvlib"/>
+				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
+				<Item Name="TBM channel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Tag Bus Module Framework/channel/TBM channel.lvclass"/>
+				<Item Name="TBM configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Tag Bus Module Framework/root configuration/TBM configuration.lvclass"/>
+				<Item Name="TBM module configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Tag Bus Module Framework/module configuration/TBM module configuration.lvclass"/>
+				<Item Name="TBM module execution interface.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Tag Bus Module Framework/runtime/TBM module execution interface.lvclass"/>
+				<Item Name="TBM timing source.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Module Timing Source/timing source/TBM timing source.lvclass"/>
+				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
+				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="usec timing source.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Module Timing Source/usec timing source/usec timing source.lvclass"/>
+				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="worker pool.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/DCAF/Engines/Standard Engine/Execution Engine/worker library/worker pool.lvlib"/>
+				<Item Name="write syslog.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Syslog Wrapper - Linux/write syslog.vi"/>
 			</Item>
-			<Item Name="Bit Manipulation.lvlib" Type="Library" URL="../../Utilities/Bit Manipulation.lvlib"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Bit Manipulation.lvlib" Type="Library" URL="../../../Utilities/Bit Manipulation.lvlib"/>
+			<Item Name="CommandCluster.ctl" Type="VI" URL="../../ExampleStateMachine/module/execution/CommandCluster.ctl"/>
+			<Item Name="DumpToLog.vi" Type="VI" URL="../../DumpToLog.vi"/>
+			<Item Name="ExampleStateMachine configuration.lvclass" Type="LVClass" URL="../../ExampleStateMachine/module/configuration/ExampleStateMachine configuration.lvclass"/>
+			<Item Name="ExampleStateMachine runtime.lvclass" Type="LVClass" URL="../../ExampleStateMachine/module/execution/ExampleStateMachine runtime.lvclass"/>
+			<Item Name="GetCommandsFromFile.vi" Type="VI" URL="../../ExampleStateMachine/module/execution/GetCommandsFromFile.vi"/>
+			<Item Name="lvalarms.dll" Type="Document" URL="lvalarms.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="MotionModule configuration.lvclass" Type="LVClass" URL="../../../module/configuration/MotionModule configuration.lvclass"/>
+			<Item Name="MotionModule runtime.lvclass" Type="LVClass" URL="../../../module/execution/MotionModule runtime.lvclass"/>
 			<Item Name="nimclv.dll" Type="Document" URL="/&lt;nishared&gt;/SoftMotion/17.0/nimclv.dll"/>
-			<Item Name="SoftmotionAxis.lvclass" Type="LVClass" URL="../SoftmotionAxis/SoftmotionAxis.lvclass"/>
-			<Item Name="WordManipulationLibrary.lvlib" Type="Library" URL="../../Utilities/WordManipulationLibrary.lvlib"/>
+			<Item Name="ProjectUtilities.lvlib" Type="Library" URL="../../../Utilities/ProjectUtilities.lvlib"/>
+			<Item Name="SoftmotionAxis.lvclass" Type="LVClass" URL="../../../SoftmotionClass/SoftmotionAxis/SoftmotionAxis.lvclass"/>
+			<Item Name="WordManipulationLibrary.lvlib" Type="Library" URL="../../../Utilities/WordManipulationLibrary.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
