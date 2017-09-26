@@ -60,6 +60,7 @@
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
 		<Property Name="host.TargetCPUID" Type="UInt">8</Property>
 		<Property Name="host.TargetOSID" Type="UInt">8</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
@@ -230,6 +231,7 @@ AddOutputFilter chunkFilter
 			</Item>
 		</Item>
 		<Item Name="CheckErrors_Benchmark.vi" Type="VI" URL="../../Testing/Benchmarking/CheckErrors_Benchmark.vi"/>
+		<Item Name="Read_Benchmark.vi" Type="VI" URL="../../Testing/Benchmarking/Read_Benchmark.vi"/>
 		<Item Name="Coordinate Space 1" Type="Motion Coordinate Space">
 			<Property Name="axes:0:0" Type="Str">Axis 1</Property>
 			<Property Name="axes:0:1" Type="Str">Axis 2</Property>
@@ -599,7 +601,6 @@ AddOutputFilter chunkFilter
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="Read_Benchmark.vi" Type="VI" URL="../../Testing/Benchmarking/Read_Benchmark.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Get Scan Engine Mode.vi" Type="VI" URL="/&lt;vilib&gt;/NIScanEngine/ScanEngine/Get Scan Engine Mode.vi"/>
@@ -612,7 +613,6 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="Bit Manipulation.lvlib" Type="Library" URL="../../Utilities/Bit Manipulation.lvlib"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="nimclv.dll" Type="Document" URL="/&lt;nishared&gt;/SoftMotion/17.0/nimclv.dll"/>
 			<Item Name="SoftmotionAxis.lvclass" Type="LVClass" URL="../SoftmotionAxis/SoftmotionAxis.lvclass"/>
 			<Item Name="WordManipulationLibrary.lvlib" Type="Library" URL="../../Utilities/WordManipulationLibrary.lvlib"/>
 		</Item>
