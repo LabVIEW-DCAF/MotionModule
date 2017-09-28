@@ -60,15 +60,6 @@
 		<Item Name="WordManipulationTests.lvlib" Type="Library" URL="../WordAndParameter_Tests/WordManipulationTests.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="Bit Manipulation.lvlib" Type="Library" URL="../../Utilities/Bit Manipulation.lvlib"/>
-			<Item Name="CommandToControlWord.vi" Type="VI" URL="../../Utilities/CommandToControlWord.vi"/>
-			<Item Name="ControlwordToCommand.vi" Type="VI" URL="../../Utilities/ControlwordToCommand.vi"/>
-			<Item Name="Parameters_BuildPositionMove.vi" Type="VI" URL="../../Utilities/Parameters_BuildPositionMove.vi"/>
-			<Item Name="Parameters_BuildReference.vi" Type="VI" URL="../../Utilities/Parameters_BuildReference.vi"/>
-			<Item Name="Parameters_GetHomingParams.vi" Type="VI" URL="../../Utilities/Parameters_GetHomingParams.vi"/>
-			<Item Name="Parameters_GetPositionParams.vi" Type="VI" URL="../../Utilities/Parameters_GetPositionParams.vi"/>
-			<Item Name="ReferenceMoveParameters.ctl" Type="VI" URL="../../Utilities/ReferenceMoveParameters.ctl"/>
-			<Item Name="StateToStatusword.vi" Type="VI" URL="../../Utilities/StateToStatusword.vi"/>
-			<Item Name="StatuswordToState.vi" Type="VI" URL="../../Utilities/StatuswordToState.vi"/>
 			<Item Name="WordManipulationLibrary.lvlib" Type="Library" URL="../../Utilities/WordManipulationLibrary.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
