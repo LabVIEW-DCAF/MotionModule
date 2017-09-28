@@ -51,7 +51,7 @@
 	</Item>
 	<Item Name="RT CompactRIO Target" Type="RT CompactRIO">
 		<Property Name="alias.name" Type="Str">RT CompactRIO Target</Property>
-		<Property Name="alias.value" Type="Str">169.254.20.75</Property>
+		<Property Name="alias.value" Type="Str">10.1.128.205</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,ARM;DeviceCode,76D6;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">76D6</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
@@ -136,7 +136,7 @@ AddOutputFilter chunkFilter
 			<Property Name="encoder.countsPerUnit:0" Type="Dbl">1000</Property>
 			<Property Name="interactivePanel.acceleration:0" Type="Dbl">1000</Property>
 			<Property Name="interactivePanel.deceleration:0" Type="Dbl">1000</Property>
-			<Property Name="interactivePanel.targetPosition:0" Type="Dbl">1000</Property>
+			<Property Name="interactivePanel.targetPosition:0" Type="Dbl">10000</Property>
 			<Property Name="interactivePanel.velocity:0" Type="Dbl">1000</Property>
 			<Property Name="resource.type:0" Type="Int">10551297</Property>
 			<Property Name="resourceID:0" Type="Str">{7A176F30-F01B-4893-887C-6BC8C2836850}</Property>
