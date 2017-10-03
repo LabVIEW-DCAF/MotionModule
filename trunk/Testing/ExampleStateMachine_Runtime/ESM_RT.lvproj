@@ -29,6 +29,33 @@
 			<Property Name="softmotionID:0" Type="Str">{C89C22D6-09D8-451c-B54B-BE98A931F881}</Property>
 			<Property Name="vendorID:0" Type="Int">0</Property>
 		</Item>
+		<Item Name="Axis2" Type="Motion Axis">
+			<Property Name="axis.class:0" Type="Int">10551365</Property>
+			<Property Name="axis.SMVersion" Type="Int">201310</Property>
+			<Property Name="deviceID:0" Type="Int">0</Property>
+			<Property Name="resource.type:0" Type="Int">10551297</Property>
+			<Property Name="resourceID:0" Type="Str">{1616B707-0E33-426D-BF93-F83879E92F3B}</Property>
+			<Property Name="softmotionID:0" Type="Str">{C89C22D6-09D8-451c-B54B-BE98A931F881}</Property>
+			<Property Name="vendorID:0" Type="Int">0</Property>
+		</Item>
+		<Item Name="Axis3" Type="Motion Axis">
+			<Property Name="axis.class:0" Type="Int">10551365</Property>
+			<Property Name="axis.SMVersion" Type="Int">201310</Property>
+			<Property Name="deviceID:0" Type="Int">0</Property>
+			<Property Name="resource.type:0" Type="Int">10551297</Property>
+			<Property Name="resourceID:0" Type="Str">{CF8CF11E-DF3E-4965-8FFF-02AE39952F52}</Property>
+			<Property Name="softmotionID:0" Type="Str">{C89C22D6-09D8-451c-B54B-BE98A931F881}</Property>
+			<Property Name="vendorID:0" Type="Int">0</Property>
+		</Item>
+		<Item Name="Cord1" Type="Motion Coordinate Space">
+			<Property Name="axes:0:0" Type="Str">Axis1</Property>
+			<Property Name="axes:0:1" Type="Str">Axis2</Property>
+			<Property Name="axes:0:2" Type="Str">Axis3</Property>
+			<Property Name="axes:0:Size" Type="UInt">3</Property>
+			<Property Name="resource.type:0" Type="Int">10551313</Property>
+			<Property Name="resourceID:0" Type="Str">{AE6FEDEB-0270-4508-A46D-9630B4CFD3B8}</Property>
+			<Property Name="softmotionID:0" Type="Str">{C89C22D6-09D8-451c-B54B-BE98A931F881}</Property>
+		</Item>
 		<Item Name="Host Main.vi" Type="VI" URL="../Host Main.vi"/>
 		<Item Name="Host Module Includes.vi" Type="VI" URL="../Host Module Includes.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
