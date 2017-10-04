@@ -42,21 +42,29 @@ Each instance of the module commands one axis or coordinate system.
   The controlword is the main way that the engine commands the module. It is composed of a U16, where each bit has a specific meaning. The first 4 and bit 6 are generic, while the other ones are dependent on the mode - taken from the DS402 standard.<br />
 
 |Reserved | Reserved | Halt | Fault reset | Op Mode Specific | Enable Op | Quick Stop | Enable Voltage | Switch On|
-|---|---|---|---|---|---|---|---|---|
-|15-11|10-9|8|7|4-6|3|2|1|0|
+|---------|----------|------|-------------|------------------|-----------|------------|----------------|----------|
+|15-11    |10-9      |8     |7            |4-6               |3          |2           |1               |0         |
 
 Command examples:<br />
 
-| Command :| Fault reset (7)| Enable Operation (3) | Quick stop (2) | Enable Voltage (1) | Switch on (0) |
-|----------|----------------|----------------------|----------------|--------------------|---------------|
-|Shutdown|0|x|1|1|0|
-|Switch On|0|0|1|1|1|
-|Disable Voltage|0|x|x|0|x|
-|Quick Stop|0|x|0|1|x|
-|Disable Op|0|0|1|1|1|
-|Enable Op|0|1|1|1|1|
-|Fault Reset|1|x|x|x|x|
-  
+| Command        | Fault reset (7)| Enable Operation (3) | Quick stop (2) | Enable Voltage (1) | Switch on (0) |
+|----------------|----------------|----------------------|----------------|--------------------|---------------|
+|Shutdown        |0|x|1|1|0|
+|Switch On       |0|0|1|1|1|
+|Disable Voltage |0|x|x|0|x|
+|Quick Stop      |0|x|0|1|x|
+|Disable Op      |0|0|1|1|1|
+|Enable Op       |0|1|1|1|1|
+|Fault Reset     |1|x|x|x|x|
+
+|Bit    |Single Axis Read|Profile Position Mode | Homing Mode |
+|-------|----------------|----------------------|-------------|
+|4      |Reserved        |New Setpoint          | Homing Start|
+|5      |Reserved        | Change immediately   | Reserved    |
+|6      |Reserved        | Absolute/Relative    | Reserved    |
+|8      |Reserved        | Halt                 | Halt        |
+|11     |Reserved        | Skip Read?           | Skip Read?  |
+
 ### Statusword
 Similarly, the main communication back from the module is through the form of a Statusword, also as per the DS402 standard.
 
@@ -71,13 +79,19 @@ Similarly, the main communication back from the module is through the form of a 
 | Fault Reaction Active  |x|0|x|x| |1|1|1|1|
 | Fault                  |x|0|x|x| |1|0|0|0|
 
+|Bit    |Single Axis Read|Profile Position Mode | Homing Mode    |
+|-------|----------------|----------------------|----------------|
+|12     |No Axis at index|Set Point Ack         | Homing Attained|
+|13     |Read Error      |Following Error       | Homing Error   |
+
+
 ### Parameters
 
   The parameters array is interpreted depending on the type of move to be done. This array is created by the utilities "Parameters_Build_XXXX" such as "Parameters_Build_PositionMove.vi". The first value in the array is the mode itself. <br />
  
   Note that some lists for the subarrays start with 1. It refers to the element number, not the array index. So, Position Profile Mode, for example, the element "mode" is the element number 1 in the array, so index 0.<br />
 
-0. Reserved
+0. Reserved - Single Axis Read
 1. Profile Position Mode
 2. Velocity Mode
 3. Profile Velocity Mode
@@ -87,6 +101,10 @@ Similarly, the main communication back from the module is through the form of a 
 7. Inteporlated Position Mode
 8. Skip (Internal message used to skip a command in the case of a status change)
 <br />
+
+0. Reserved - Single Axis Read
+    1. Mode
+    2. Axis
 
 1. Profile Position Mode
     1. Mode
@@ -99,7 +117,7 @@ Similarly, the main communication back from the module is through the form of a 
 6. Reference Move Mode
     1. Mode
     2. Axis to command
-    3. Reference Type (home, limit, index, etc)
+    3. Reference Mode (home, limit, index, etc)
     4. Start Search Forward? (bool)
     5. Stop on Forward Edge? (bool)
     6. Approach Forward? (bool)
@@ -107,12 +125,18 @@ Similarly, the main communication back from the module is through the form of a 
     9. Acceleration
     
 ### Results
-The results are populated in the array as per the following list. <br />
+The results are populated in the array as per the following list. Elements 1-5 repeat for each axis. <br />
 
-0. Position Setpoint
-1. Position Feedback
-2. Velocity Feedback
-4. Motion I/O
+0. Number of Axis in block read
+1. Position Setpoint (Axis 1)
+2. Position Setpoint (Axis 1)
+4. Velocity Feedback (Axis 1)
+5. Motion I/O        (Axis 1)
+6. Position Setpoint (Axis 2)
+7. Position Feedback (Axis 2)
+8. Velocity Feedback (Axis 2)
+9. Motion I/O        (Axis 2)
+(etc)
 
 The Motion I/O is a double composed of a boolean array:
 1. Forward Limit Active
