@@ -130,7 +130,6 @@ The results are populated in the array as per the following list. Single Axis Re
 Fast Read<br />
 0. Fast Read (Zero for Fast Read, other for Single Axis Read)
 1. Velocity
-2. Acceleration
 3. Position (Axis 1)
 4. Position (Axis 2)
 5. Position (etc)
