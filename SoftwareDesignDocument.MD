@@ -136,6 +136,7 @@ Fast Read<br />
 
 Full Read<br />
 0.  Fast Read (Zero for Fast Read, other for Single Axis Read)
+1.  Number of Axis
 1.  Position Setpoint (Axis 1)
 2.  Position Feedback (Axis 1)
 3.  Velocity Setpoint (Axis 1)
