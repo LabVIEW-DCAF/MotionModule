@@ -61,7 +61,7 @@ Command examples:<br />
 |-------|----------------|----------------------|-------------|
 |4      |Reserved        |New Setpoint          | Homing Start|
 |5      |Reserved        | Change immediately   | Reserved    |
-|6      |Reserved        | Absolute/Relative    | Reserved    |
+|6      |Bulk Read?      | Absolute/Relative    | Reserved    |
 |8      |Reserved        | Halt                 | Halt        |
 |11     |Reserved        | Skip Read?           | Skip Read?  |
 
@@ -125,17 +125,28 @@ Similarly, the main communication back from the module is through the form of a 
     9. Acceleration
     
 ### Results
-The results are populated in the array as per the following list. Elements 1-5 repeat for each axis. <br />
+The results are populated in the array as per the following list. Single Axis Reads will return the "full" info on each axis, while the Basic Read will return only position, velocity and acceleration of the single axis or coordinate system. Elements 1-5 repeat for each axis. <br />
 
-0. Number of Axis in block read
-1. Position Setpoint (Axis 1)
-2. Position Setpoint (Axis 1)
-4. Velocity Feedback (Axis 1)
-5. Motion I/O        (Axis 1)
-6. Position Setpoint (Axis 2)
-7. Position Feedback (Axis 2)
-8. Velocity Feedback (Axis 2)
-9. Motion I/O        (Axis 2)
+Fast Read<br />
+0. Fast Read (Zero for Fast Read, other for Single Axis Read)
+1. Velocity
+2. Acceleration
+3. Position (Axis 1)
+4. Position (Axis 2)
+5. Position (etc)
+
+Full Read<br />
+0.  Fast Read (Zero for Fast Read, other for Single Axis Read)
+1.  Position Setpoint (Axis 1)
+2.  Position Feedback (Axis 1)
+3.  Velocity Setpoint (Axis 1)
+4.  Velocity Feedback (Axis 1)
+5.  Motion I/O        (Axis 1)
+6.  Position Setpoint (Axis 2)
+7.  Position Feedback (Axis 2)
+8.  Velocity Setpoint (Axis 2)
+9.  Velocity Feedback (Axis 2)
+10. Motion I/O        (Axis 2)
 (etc)
 
 The Motion I/O is a double composed of a boolean array:
