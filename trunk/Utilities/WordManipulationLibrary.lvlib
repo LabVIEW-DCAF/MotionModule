@@ -53,8 +53,8 @@
 			<Item Name="Results_MotionIO.ctl" Type="VI" URL="../Results_MotionIO.ctl"/>
 			<Item Name="Results_Trajectory.ctl" Type="VI" URL="../Results_Trajectory.ctl"/>
 		</Item>
-		<Item Name="Results_Get_Position.vi" Type="VI" URL="../Results_Get_Position.vi"/>
-		<Item Name="Results_Get_Read.vi" Type="VI" URL="../Results_Get_Read.vi"/>
+		<Item Name="Results_Get_ReadFast.vi" Type="VI" URL="../Results_Get_ReadFast.vi"/>
+		<Item Name="Results_Get_ReadFull.vi" Type="VI" URL="../Results_Get_ReadFull.vi"/>
 	</Item>
 	<Item Name="WordManipulation" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
