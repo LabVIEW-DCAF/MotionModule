@@ -5,11 +5,34 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="ParameterManipulation" Type="Folder">
+		<Item Name="Position_Test.lvtest" Type="TestItem" URL="../Position_Test.lvtest">
+			<Property Name="utf.test.bind" Type="Str">WordManipulationTests.lvlib:Position_Test.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">EDF7410E-5B4C-C0DB-1229-2AC65431CB9D</Property>
+		</Item>
 		<Item Name="Position_Test.vi" Type="VI" URL="../Position_Test.vi"/>
+		<Item Name="Reference_Test.lvtest" Type="TestItem" URL="../Reference_Test.lvtest">
+			<Property Name="utf.test.bind" Type="Str">WordManipulationTests.lvlib:Reference_Test.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">F537CC15-C150-E35F-C7D7-95AC6547B4FA</Property>
+		</Item>
 		<Item Name="Reference_Test.vi" Type="VI" URL="../Reference_Test.vi"/>
 	</Item>
+	<Item Name="ResultManipulation" Type="Folder">
+		<Item Name="Test_ReadFast.lvtest" Type="TestItem" URL="../Test_ReadFast.lvtest">
+			<Property Name="utf.test.bind" Type="Str">WordManipulationTests.lvlib:Test_ReadFast.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">5397D846-D0FC-A261-A37E-1F15D9C0EF98</Property>
+		</Item>
+		<Item Name="Test_ReadFast.vi" Type="VI" URL="../Test_ReadFast.vi"/>
+	</Item>
 	<Item Name="WordManipulation" Type="Folder">
+		<Item Name="Test_Commands.lvtest" Type="TestItem" URL="../Test_Commands.lvtest">
+			<Property Name="utf.test.bind" Type="Str">WordManipulationTests.lvlib:Test_Commands.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">F430DB27-6E90-01F6-A77F-FA40FEF3F177</Property>
+		</Item>
 		<Item Name="Test_Commands.vi" Type="VI" URL="../Test_Commands.vi"/>
+		<Item Name="Test_Status.lvtest" Type="TestItem" URL="../Test_Status.lvtest">
+			<Property Name="utf.test.bind" Type="Str">WordManipulationTests.lvlib:Test_Status.vi</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">229A9AA1-5079-F961-BCFF-79315DD7C38F</Property>
+		</Item>
 		<Item Name="Test_Status.vi" Type="VI" URL="../Test_Status.vi"/>
 	</Item>
 </Library>
