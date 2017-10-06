@@ -3,7 +3,7 @@
 
 //Modify the below parameters to match the values for this particular repo
 
-def utfPaths = ["source\\trunk\\Testing\\MotionModuleTesting.lvproj"]
+def utfPaths = ["trunk\\Testing\\MotionModuleTesting.lvproj"]
 def vipbPaths = ["MotionModule.vipb"]
 def lvVersion = "17.0"
 
