@@ -155,6 +155,8 @@
 			<Item Name="Bit Manipulation.lvlib" Type="Library" URL="../Utilities/Bit Manipulation.lvlib"/>
 			<Item Name="ProjectUtilities.lvlib" Type="Library" URL="../Utilities/ProjectUtilities.lvlib"/>
 			<Item Name="nimclv.dll" Type="Document" URL="/&lt;nishared&gt;/SoftMotion/17.0/nimclv.dll"/>
+			<Item Name="user input.vi" Type="VI" URL="../module/execution/user input.vi"/>
+			<Item Name="user output.vi" Type="VI" URL="../module/execution/user output.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
