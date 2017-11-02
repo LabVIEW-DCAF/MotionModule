@@ -128,6 +128,7 @@ Similarly, the main communication back from the module is through the form of a 
 The results are populated in the array as per the following list. Single Axis Reads will return the "full" info on each axis, while the Basic Read will return only position, velocity and acceleration of the single axis or coordinate system. Elements 1-5 repeat for each axis. <br />
 
 Fast Read<br />
+
 0. Fast Read (Zero for Fast Read, other for Single Axis Read)
 1. Velocity
 3. Position (Axis 1)
@@ -135,6 +136,7 @@ Fast Read<br />
 5. Position (etc)
 
 Full Read<br />
+
 0.  Fast Read (Zero for Fast Read, other for Single Axis Read)
 1.  Number of Axis
 1.  Position Setpoint (Axis 1)
@@ -161,9 +163,18 @@ The Motion I/O is a double composed of a boolean array:
 
 
 # Component Design
-  In this section, we take a closer look at what each component does in a more systematic way. If you gave a functional description in section 3.2, provide a summary of your algorithm for each  function listed in 3.2 in procedural description language (PDL) or pseudocode. If you gave an  OO description, summarize each object member function for all the objects listed in 3.2 in PDL or pseudocode. Describe any local data when necessary.
+  The Motion Module is instanced as any other DCAF module. However, it requires another module to act as the sequencer. This sequencer will need to take the motion module through the DS402 state machine from the Shutdown case to Operation Enable by using the ControlWord.
+  The Motion Module itself is composed of the 3 usual DCAF Classes - a Configuration Class, an Editor Class, and a Runtime Class. When the user configures a module in the editor, it saves the Axis or Coordinate System Name as well as the name of all of the axis in the coordinate system if applicable. All of these get saved to the Configuration class. <br />
+  The Runtime class takes the axis name from the Configuration Class as well as the array of axis if applicable and populates them into the Runtime object. It also creates another object, the Softmotion Axis class. This Class is used to dispatch the different axis-specific methods and contains the Softmotion Axis (the LabVIEW item defined in the project) as well as the different move references. 
+  The user process VI contains the code that checks every iteration for new commands from the ControlWord and updates the StatusWord accordingly. 
+  
 # Human Interface Design
 ## Overview of the User Interface
+  Add the module to an engine. When that is done, either create or bind tags to each of the 4 main channels - Controlword, Parameters, Statusword, Results. (Screenshot DCAF editor 1 missing)<br />
+  Within the Parameters, add the Axis or Coord Name - it must be the same than the Softmotion Axis defined in the project. If it is a coordinate system, add the axis that compose it to the second line, separated by a forward slash. Ex: Axis1/Axis2/Axis3 (Screenshot DCAF Editor 2 missing)<br />
 ## Screenshots
-# Requirements Matrix
+# Requirements
+  This module requires LabVIEW 2017 with the RealTime and Softmotion modules. 
+  Additionally, it requires the DCAF core package as well any other module that can act as a sequencer. 
+
 
