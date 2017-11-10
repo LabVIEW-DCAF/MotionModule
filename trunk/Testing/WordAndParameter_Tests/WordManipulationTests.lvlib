@@ -7,36 +7,36 @@
 	<Item Name="ParameterManipulation" Type="Folder">
 		<Item Name="Position_Test.lvtest" Type="TestItem" URL="../Position_Test.lvtest">
 			<Property Name="utf.test.bind" Type="Str">WordManipulationTests.lvlib:Position_Test.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">5D1FA69D-7AC7-4F99-07C4-64A5C0AADC72</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">06E87405-A4B5-BCF6-27AE-EBCF6C8C5FEB</Property>
 		</Item>
 		<Item Name="Position_Test.vi" Type="VI" URL="../Position_Test.vi"/>
 		<Item Name="Reference_Test.lvtest" Type="TestItem" URL="../Reference_Test.lvtest">
 			<Property Name="utf.test.bind" Type="Str">WordManipulationTests.lvlib:Reference_Test.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">57E1C060-13E5-72FC-D2AA-0C47F33AF793</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">B58A0A5A-DF77-A8C9-32FE-C3C2115F2346</Property>
 		</Item>
 		<Item Name="Reference_Test.vi" Type="VI" URL="../Reference_Test.vi"/>
 		<Item Name="Stop_Test.lvtest" Type="TestItem" URL="../Stop_Test.lvtest">
 			<Property Name="utf.test.bind" Type="Str">WordManipulationTests.lvlib:Stop_Test.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">1F0B4BE1-2033-935E-41A2-089AB9EFDD2A</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">91B9E29D-791D-2B6F-B1B8-3E92E2EDBF84</Property>
 		</Item>
 		<Item Name="Stop_Test.vi" Type="VI" URL="../Stop_Test.vi"/>
 	</Item>
 	<Item Name="ResultManipulation" Type="Folder">
 		<Item Name="Test_ReadFast.lvtest" Type="TestItem" URL="../Test_ReadFast.lvtest">
 			<Property Name="utf.test.bind" Type="Str">WordManipulationTests.lvlib:Test_ReadFast.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">70CD75AD-FE3E-F60F-8A0B-296788FA7870</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">0852B011-A145-10E4-2556-300C174352D8</Property>
 		</Item>
 		<Item Name="Test_ReadFast.vi" Type="VI" URL="../Test_ReadFast.vi"/>
 	</Item>
 	<Item Name="WordManipulation" Type="Folder">
 		<Item Name="Test_Commands.lvtest" Type="TestItem" URL="../Test_Commands.lvtest">
 			<Property Name="utf.test.bind" Type="Str">WordManipulationTests.lvlib:Test_Commands.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">B46A13A0-FF85-8EB4-A679-4D5461DD7A97</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">7FC5B9D8-D07E-064A-D4A5-3D27C1982374</Property>
 		</Item>
 		<Item Name="Test_Commands.vi" Type="VI" URL="../Test_Commands.vi"/>
 		<Item Name="Test_Status.lvtest" Type="TestItem" URL="../Test_Status.lvtest">
 			<Property Name="utf.test.bind" Type="Str">WordManipulationTests.lvlib:Test_Status.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">113C5924-81EE-7181-BCBE-2FC6AA0AE0F2</Property>
+			<Property Name="utf.vector.test.bind" Type="Str">371257C0-B42B-54D3-0A87-0656A9C15C45</Property>
 		</Item>
 		<Item Name="Test_Status.vi" Type="VI" URL="../Test_Status.vi"/>
 	</Item>
