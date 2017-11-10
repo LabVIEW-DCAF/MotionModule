@@ -127,6 +127,7 @@
 			<Property Name="resourceID:0" Type="Str">{4B76A59B-7301-433D-B2A1-6FFDAB4D540C}</Property>
 			<Property Name="softmotionID:0" Type="Str">{C89C22D6-09D8-451c-B54B-BE98A931F881}</Property>
 		</Item>
+		<Item Name="WordManipulationLibrary.lvlib" Type="Library" URL="../../Utilities/WordManipulationLibrary.lvlib"/>
 		<Item Name="WordManipulationTests.lvlib" Type="Library" URL="../WordAndParameter_Tests/WordManipulationTests.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -140,7 +141,6 @@
 			<Item Name="Bit Manipulation.lvlib" Type="Library" URL="../../Utilities/Bit Manipulation.lvlib"/>
 			<Item Name="nimclv.dll" Type="Document" URL="/&lt;nishared&gt;/SoftMotion/17.0/nimclv.dll"/>
 			<Item Name="SoftmotionAxis.lvclass" Type="LVClass" URL="../../SoftmotionClass/SoftmotionAxis/SoftmotionAxis.lvclass"/>
-			<Item Name="WordManipulationLibrary.lvlib" Type="Library" URL="../../Utilities/WordManipulationLibrary.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
