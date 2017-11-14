@@ -57,13 +57,13 @@ Command examples:<br />
 |Enable Op       |0|1|1|1|1|
 |Fault Reset     |1|x|x|x|x|
 
-|Bit    |Single Axis Read|Profile Position Mode | Homing Mode |
-|-------|----------------|----------------------|-------------|
-|4      |Reserved        |New Setpoint          | Homing Start|
-|5      |Reserved        | Change immediately   | Reserved    |
-|6      |Bulk Read?      | Absolute/Relative    | Reserved    |
-|8      |Reserved        | Halt                 | Halt        |
-|11     |Reserved        | Skip Read?           | Skip Read?  |
+|Bit    |Single Axis Read|Profile Position Mode |Velocity Profile Mode| Homing Mode |
+|-------|----------------|----------------------|---------------------|-------------|
+|4      |Reserved        |New Setpoint          |---------------------| Homing Start|
+|5      |Reserved        | Change immediately   |---------------------| Reserved    |
+|6      |Bulk Read?      | Absolute/Relative    |---------------------| Reserved    |
+|8      |Reserved        | Halt                 |---------------------| Halt        |
+|11     |Reserved        | Skip Read?           |---------------------| Skip Read?  |
 
 ### Statusword
 Similarly, the main communication back from the module is through the form of a Statusword, also as per the DS402 standard.
@@ -106,7 +106,7 @@ Similarly, the main communication back from the module is through the form of a 
     1. Mode
     2. Axis
 
-1. Profile Position Mode
+1. Position Profile Mode
     1. Mode
     2. Reserved
     3. Velocity
@@ -114,7 +114,14 @@ Similarly, the main communication back from the module is through the form of a 
     5. Acceleration Jerk (Unused)
     6. Positions [] (Array)
     
-6. Reference Move Mode
+1. Velocity Profile Mode
+    1. Mode
+    2. Reserved
+    3. Velocity
+    4. Acceleration
+    5. Acceleration Jerk (Unused)
+    
+1. Reference Move Mode
     1. Mode
     2. Axis to command
     3. Reference Mode (home, limit, index, etc)
