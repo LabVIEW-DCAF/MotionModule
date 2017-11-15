@@ -59,11 +59,11 @@ Command examples:<br />
 
 |Bit    |Single Axis Read|Profile Position Mode |Velocity Profile Mode| Homing Mode |
 |-------|----------------|----------------------|---------------------|-------------|
-|4      |Reserved        |New Setpoint          |---------------------| Homing Start|
-|5      |Reserved        | Change immediately   |---------------------| Reserved    |
-|6      |Bulk Read?      | Absolute/Relative    |---------------------| Reserved    |
-|8      |Reserved        | Halt                 |---------------------| Halt        |
-|11     |Reserved        | Skip Read?           |---------------------| Skip Read?  |
+|4      |Reserved        |New Setpoint          |Reserved             | Homing Start|
+|5      |Reserved        | Change immediately   |Reserved             | Reserved    |
+|6      |Bulk Read?      | Absolute/Relative    |Reserved             | Reserved    |
+|8      |Reserved        | Halt                 | Halt                | Halt        |
+|11     |Reserved        | Skip Read?           | Skip Read?          | Skip Read?  |
 
 ### Statusword
 Similarly, the main communication back from the module is through the form of a Statusword, also as per the DS402 standard.
