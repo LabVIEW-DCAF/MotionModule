@@ -62,11 +62,14 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Controls" Type="Folder">
 			<Item Name="Controlword_Commands.ctl" Type="VI" URL="../Controlword_Commands.ctl"/>
+			<Item Name="Controlword_ReadMode.ctl" Type="VI" URL="../Controlword_ReadMode.ctl"/>
 			<Item Name="MoveMode.ctl" Type="VI" URL="../MoveMode.ctl"/>
+			<Item Name="Results_Faults.ctl" Type="VI" URL="../Results_Faults.ctl"/>
 			<Item Name="StateMachine.ctl" Type="VI" URL="../StateMachine.ctl"/>
 		</Item>
 		<Item Name="General" Type="Folder">
 			<Item Name="Controlword_CommandToWord.vi" Type="VI" URL="../Controlword_CommandToWord.vi"/>
+			<Item Name="Controlword_ReadMode.vi" Type="VI" URL="../Controlword_ReadMode.vi"/>
 			<Item Name="Controlword_WordToCommand.vi" Type="VI" URL="../Controlword_WordToCommand.vi"/>
 			<Item Name="Statusword_StateToWord.vi" Type="VI" URL="../Statusword_StateToWord.vi"/>
 			<Item Name="Statusword_WordToState.vi" Type="VI" URL="../Statusword_WordToState.vi"/>
