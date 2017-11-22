@@ -27,6 +27,7 @@
 			<Property Name="utf.vector.test.bind" Type="Str">4A452060-E2A8-1BFA-13AE-B9372FFA65E3</Property>
 		</Item>
 		<Item Name="Test_ReadFast.vi" Type="VI" URL="../Test_ReadFast.vi"/>
+		<Item Name="Test_ReadFull.vi" Type="VI" URL="../Test_ReadFull.vi"/>
 	</Item>
 	<Item Name="WordManipulation" Type="Folder">
 		<Item Name="Test_Commands.lvtest" Type="TestItem" URL="../Test_Commands.lvtest">
