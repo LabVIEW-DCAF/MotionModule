@@ -146,16 +146,21 @@ Full Read<br />
 
 0.  Fast Read (Zero for Fast Read, other for Single Axis Read)
 1.  Number of Axis
-1.  Position Setpoint (Axis 1)
-2.  Position Feedback (Axis 1)
-3.  Velocity Setpoint (Axis 1)
-4.  Velocity Feedback (Axis 1)
-5.  Motion I/O        (Axis 1)
-6.  Position Setpoint (Axis 2)
-7.  Position Feedback (Axis 2)
-8.  Velocity Setpoint (Axis 2)
-9.  Velocity Feedback (Axis 2)
-10. Motion I/O        (Axis 2)
+2.  Position Setpoint     (Axis 1)
+3.  Position Feedback     (Axis 1)
+4.  Velocity Setpoint     (Axis 1)
+5.  Velocity Feedback     (Axis 1)
+6.  Motion I/O            (Axis 1)
+7.  Checked Fault? (0=N)  (Axis 1)
+8.  Fault Code            (Axis 1)
+9.  Position Setpoint     (Axis 2)
+10.  Position Feedback    (Axis 2)
+11.  Velocity Setpoint    (Axis 2)
+12.  Velocity Feedback    (Axis 2)
+13.  Motion I/O           (Axis 2)
+14.  Checked Fault? (0=N) (Axis 2)
+15.  Fault Code           (Axis 2)
+
 (etc)
 
 The Motion I/O is a double composed of a boolean array:
