@@ -26,7 +26,6 @@
 		<Item Name="MotionModule editor node.lvclass" Type="LVClass" URL="../editor node/MotionModule editor node.lvclass"/>
 		<Item Name="MotionModule runtime.lvclass" Type="LVClass" URL="../module/execution/MotionModule runtime.lvclass"/>
 		<Item Name="MotionModule tests.lvlib" Type="Library" URL="../Testing/Motion Module Tests/MotionModule tests.lvlib"/>
-		<Item Name="DumpToLog.vi" Type="VI" URL="../Testing/DumpToLog.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="control module configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/control module/configuration/control module configuration.lvclass"/>
@@ -136,14 +135,14 @@
 				<Item Name="NISE_CEF_HierarchyRepo.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Configuration Framework/hierarchy repo/NISE_CEF_HierarchyRepo.lvclass"/>
 				<Item Name="sizeaction.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/sizeaction.ctl"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="TryGetGraphVizPath.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/Utilities/External tools/TryGetGraphVizPath.vi"/>
+				<Item Name="Format Numeric String.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/Table API/Helpers/Format Numeric String.vi"/>
+				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
+				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="Get Scan Engine Mode.vi" Type="VI" URL="/&lt;vilib&gt;/NIScanEngine/ScanEngine/Get Scan Engine Mode.vi"/>
 				<Item Name="IOV engine refnum from target address.vi" Type="VI" URL="/&lt;vilib&gt;/NIScanEngine/ScanEngine/IOV engine refnum from target address.vi"/>
 				<Item Name="nimc.create.vi" Type="VI" URL="/&lt;vilib&gt;/Motion/PropertyNodes/nimc.create.vi"/>
 				<Item Name="nimc.destroy.vi" Type="VI" URL="/&lt;vilib&gt;/Motion/PropertyNodes/nimc.destroy.vi"/>
-				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
-				<Item Name="Get System Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/Get System Directory.vi"/>
-				<Item Name="TryGetGraphVizPath.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/Utilities/External tools/TryGetGraphVizPath.vi"/>
-				<Item Name="Format Numeric String.vi" Type="VI" URL="/&lt;vilib&gt;/NI/DCAF/Tag Editor Core/Table API/Helpers/Format Numeric String.vi"/>
 			</Item>
 			<Item Name="SoftmotionAxis.lvclass" Type="LVClass" URL="../SoftmotionClass/SoftmotionAxis/SoftmotionAxis.lvclass"/>
 			<Item Name="System.Windows.Forms" Type="Document" URL="System.Windows.Forms">
@@ -152,12 +151,13 @@
 			<Item Name="System.Drawing" Type="Document" URL="System.Drawing">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="WordManipulationLibrary.lvlib" Type="Library" URL="../Utilities/WordManipulationLibrary.lvlib"/>
-			<Item Name="Bit Manipulation.lvlib" Type="Library" URL="../Utilities/Bit Manipulation.lvlib"/>
 			<Item Name="ProjectUtilities.lvlib" Type="Library" URL="../Utilities/ProjectUtilities.lvlib"/>
-			<Item Name="nimclv.dll" Type="Document" URL="/&lt;nishared&gt;/SoftMotion/17.0/nimclv.dll"/>
 			<Item Name="user input.vi" Type="VI" URL="../module/execution/user input.vi"/>
 			<Item Name="user output.vi" Type="VI" URL="../module/execution/user output.vi"/>
+			<Item Name="DumpToLog.vi" Type="VI" URL="../Testing/DumpToLog.vi"/>
+			<Item Name="WordManipulationLibrary.lvlib" Type="Library" URL="../Utilities/WordManipulationLibrary.lvlib"/>
+			<Item Name="Bit Manipulation.lvlib" Type="Library" URL="../Utilities/Bit Manipulation.lvlib"/>
+			<Item Name="nimclv.dll" Type="Document" URL="/&lt;nishared&gt;/SoftMotion/17.0/nimclv.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
