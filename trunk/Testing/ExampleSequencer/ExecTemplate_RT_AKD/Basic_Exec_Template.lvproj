@@ -20,14 +20,14 @@
 	<Property Name="varPersistentID:{E662097F-3502-4F24-95C1-D7865E4BC98B}" Type="Ref">/RT IC-3173 Target/EtherCAT Master/Device/Inputs-Torque Actual Value</Property>
 	<Property Name="varPersistentID:{FF8B05CD-2098-40EB-B084-8CAC1C9A4AAE}" Type="Ref">/RT IC-3173 Target/EtherCAT Master/Device/Inputs-Status word</Property>
 	<Item Name="My Computer" Type="My Computer">
-		<Property Name="IOScan.Faults" Type="Str"></Property>
+		<Property Name="IOScan.Faults" Type="Str">1.0,0;</Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
 		<Property Name="IOScan.Period" Type="UInt">10000</Property>
 		<Property Name="IOScan.PowerupMode" Type="UInt">0</Property>
 		<Property Name="IOScan.Priority" Type="UInt">9</Property>
 		<Property Name="IOScan.ReportModeConflict" Type="Bool">true</Property>
-		<Property Name="IOScan.StartEngineOnDeploy" Type="Bool">true</Property>
+		<Property Name="IOScan.StartEngineOnDeploy" Type="Bool">false</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
